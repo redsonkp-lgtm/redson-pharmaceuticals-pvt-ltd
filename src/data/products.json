@@ -1,0 +1,1298 @@
+[
+    {
+    "id": 1,
+    "type": "TAB",
+    "name": "Amlocar-5 Tablets",
+    "category": "Pharmaceutical Tablets",
+    "price": "1000 INR/Bottle",
+    "details": {
+      "dosage": "5 Mg",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Liquid",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 2,
+    "type": "TAB",
+    "name": "Chlordiazepoxide And Amitriptyline Tablets",
+    "category": "Pharmaceutical Tablets",
+    "price": "1000 INR/Bottle",
+    "details": {
+      "dosage": "",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Liquid",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 3,
+    "type": "TAB",
+    "name": "Redifer Up Tablet",
+    "category": "Pharmaceutical Tablets",
+    "price": "1000 INR/Bottle",
+    "details": {
+      "dosage": "",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Liquid",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 4,
+    "type": "TAB",
+    "name": "Disulfiram Tablets IP Tablets",
+    "category": "Pharmaceutical Tablets",
+    "price": "1000 INR/Bottle",
+    "details": {
+      "dosage": "250-500 Mg",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Liquid",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 5,
+    "type": "TAB",
+    "name": "Progesterone Tablets Hyprone 200MG",
+    "category": "Pharmaceutical Tablets",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "200 Mg",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Liquid",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 6,
+    "type": "CAP",
+    "name": "Multi Vitamins Capsules",
+    "category": "Pharmaceutical Capsules",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Vitamin Supplement",
+      "storageInstruction": "",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "",
+      "physicalForm": "Capsule",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 7,
+    "type": "SYP",
+    "name": "Stroncil Gum Paint Syrup",
+    "category": "Medical Syrup",
+    "price": "1000 INR/Bottle",
+    "details": {
+      "dosage": "15 ML",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Liquid",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 8,
+    "type": "SYP",
+    "name": "Paracetomol Oral Suspension Remol Syrup",
+    "category": "Medical Syrup",
+    "price": "1000 INR/Bottle",
+    "details": {
+      "dosage": "60 ML",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Bottles Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Liquid",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 9,
+    "type": "SYP",
+    "name": "Protoplan-Z Syrup",
+    "category": "Medical Syrup",
+    "price": "1000 INR/Bottle",
+    "details": {
+      "dosage": "200 ML",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Bottles Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Liquid",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 10,
+    "type": "SYP",
+    "name": "Scabion Syrups",
+    "category": "Medical Syrup",
+    "price": "1000 INR/Bottle",
+    "details": {
+      "dosage": "100 ML",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Bottles Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Liquid",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 11,
+    "type": "SYP",
+    "name": "Lindane Lotion USP Scabion",
+    "category": "Medical Syrup",
+    "price": "1000 INR/Bottle",
+    "details": {
+      "dosage": "100 ML",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Liquid",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 12,
+    "type": "SYP",
+    "name": "Sucralfate Suspension Sucid",
+    "category": "Medical Syrup",
+    "price": "1000 INR/Bottle",
+    "details": {
+      "dosage": "200 ML",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Liquid",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 13,
+    "type": "SYP",
+    "name": "Custom Syrups Manufacturers",
+    "category": "Medical Syrup",
+    "price": "1000 INR/Bottle",
+    "details": {
+      "dosage": "",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Liquid",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 14,
+    "type": "SYP",
+    "name": "Cough Syrup Respidil-D",
+    "category": "Medical Syrup",
+    "price": "1000 INR/Bottle",
+    "details": {
+      "dosage": "100 ML",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Liquid",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 15,
+    "type": "SYP",
+    "name": "Trof B Cough Syrups",
+    "category": "Medical Syrup",
+    "price": "1000 INR/Bottle",
+    "details": {
+      "dosage": "100 ML",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Liquid",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 16,
+    "type": "SYP",
+    "name": "Disodium Hydrogen Citrate Syrups",
+    "category": "Medical Syrup",
+    "price": "1000 INR/Bottle",
+    "details": {
+      "dosage": "15-30 ML",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Liquid",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 17,
+    "type": "SYP",
+    "name": "Pyoson F Syrups",
+    "category": "Medical Syrup",
+    "price": "1000 INR/Bottle",
+    "details": {
+      "dosage": "100 ML",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Liquid",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 18,
+    "type": "SYP",
+    "name": "Chlorhexidine Gluconate",
+    "category": "Medical Syrup",
+    "price": "1000 INR/Bottle",
+    "details": {
+      "dosage": "100 ML",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Liquid",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 19,
+    "type": "CREAM",
+    "name": "Beclomethasone Gentamicin tolnaftate Iodochlorhydr",
+    "category": "Pharmaceutical Cream & Ointments",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "General Medicines",
+      "storageInstruction": "",
+      "supplyAbility": "100 Per Day",
+      "drugType": "",
+      "physicalForm": "Tablets",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 20,
+    "type": "CREAM",
+    "name": "Foaming Toot Paste",
+    "category": "Pharmaceutical Cream & Ointments",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "General Medicines",
+      "storageInstruction": "",
+      "supplyAbility": "100 Per Day",
+      "drugType": "",
+      "physicalForm": "Tablets",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 21,
+    "type": "CREAM",
+    "name": "Potassium Nitrate Gel Pyoson K Gel",
+    "category": "Pharmaceutical Cream & Ointments",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "General Medicines",
+      "storageInstruction": "",
+      "supplyAbility": "100 Per Day",
+      "drugType": "",
+      "physicalForm": "Tablets",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 22,
+    "type": "CREAM",
+    "name": "Sodium Fusidate Ointment BP",
+    "category": "Pharmaceutical Cream & Ointments",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "General Medicines",
+      "storageInstruction": "",
+      "supplyAbility": "100 Per Day",
+      "drugType": "",
+      "physicalForm": "Tablets",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 23,
+    "type": "CREAM",
+    "name": "Analgesic Rubefacient Ointment Cream",
+    "category": "Pharmaceutical Cream & Ointments",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "General Medicines",
+      "storageInstruction": "",
+      "supplyAbility": "100 Per Day",
+      "drugType": "",
+      "physicalForm": "Tablets",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 24,
+    "type": "TAB",
+    "name": "Pharmaceutical Formulations",
+    "category": "Pharmaceutical Formulations",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "General Medicines",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "General Drugs",
+      "physicalForm": "Tablets",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 25,
+    "type": "TAB",
+    "name": "Misoprost-200 Tablet",
+    "category": "Pharmaceutical Formulations",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "200 Mcg",
+      "function": "General Medicines",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "General Drugs",
+      "physicalForm": "Tablets",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 26,
+    "type": "TAB",
+    "name": "Ofloxacin Tablets to Treat Various Bacterial Infections",
+    "category": "Pharmaceutical Formulations",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "General Medicines",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "General Drugs",
+      "physicalForm": "Tablets",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 27,
+    "type": "API",
+    "name": "READY MIX CLEAR FILM COATING API",
+    "category": "API",
+    "price": "1000 INR/Bottle",
+    "details": {
+      "dosage": "",
+      "function": "Other",
+      "storageInstruction": "",
+      "supplyAbility": "100 Per Day",
+      "drugType": "",
+      "physicalForm": "Liquid",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 28,
+    "type": "TAB",
+    "name": "Azithromycin Tablets",
+    "category": "ANTIBACTERIAL Tablets",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Tablets",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 29,
+    "type": "TAB",
+    "name": "Ofcil OR Syrups",
+    "category": "ANTIBACTERIAL Tablets",
+    "price": "1000 INR/Bottle",
+    "details": {
+      "dosage": "",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Bottles Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Liquid",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 30,
+    "type": "TAB",
+    "name": "Levofloxacin Tablets",
+    "category": "ANTIBACTERIAL Tablets",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Tablets",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 31,
+    "type": "TAB",
+    "name": "Ofloxacin and Ornidazole Tablets",
+    "category": "ANTIBACTERIAL Tablets",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Tablets",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 32,
+    "type": "TAB",
+    "name": "Ciprofloxacin Hydrochloride Tablets IP",
+    "category": "ANTIBACTERIAL Tablets",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Tablets",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 33,
+    "type": "TAB",
+    "name": "Azit 500 Tablets",
+    "category": "ANTIBACTERIAL Tablets",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "500 Mg",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Tablets",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 34,
+    "type": "TAB",
+    "name": "Ofloxacin Antibiotic Tablets",
+    "category": "ANTIBACTERIAL Tablets",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Tablets",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 35,
+    "type": "TAB",
+    "name": "Moxired Syrups",
+    "category": "ANTIBIOTIC Tablet",
+    "price": "1000 INR/Bottle",
+    "details": {
+      "dosage": "",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Bottles Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Liquid",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 36,
+    "type": "TAB",
+    "name": "Cefixime Tablets",
+    "category": "ANTIBIOTIC Tablet",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Tablets",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 37,
+    "type": "TAB",
+    "name": "Cefpodoxime Proxetil",
+    "category": "ANTIBIOTIC Tablet",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Tablets",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 38,
+    "type": "TAB",
+    "name": "Cetpodoxime Proxetil Dispersible Tablets",
+    "category": "ANTIBIOTIC Tablet",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Tablets",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 39,
+    "type": "CAP",
+    "name": "Remol Plus",
+    "category": "ANTI-INFLAMATORY & ANALGESICS",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Capsules",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 40,
+    "type": "TAB",
+    "name": "Nimesulide Tablets",
+    "category": "ANTI-INFLAMATORY & ANALGESICS",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Tablets",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 41,
+    "type": "TAB",
+    "name": "Lactic Acid Bacillus Disersible Tablets",
+    "category": "ANTI-INFLAMATORY & ANALGESICS",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Tablets",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 42,
+    "type": "TAB",
+    "name": "Acered Tablets",
+    "category": "ANTI-INFLAMATORY & ANALGESICS",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Tablets",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 43,
+    "type": "TAB",
+    "name": "Serratiopeptidase with Diclofenac Sodium Tablets",
+    "category": "ANTI-INFLAMATORY & ANALGESICS",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Tablets",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 44,
+    "type": "TAB",
+    "name": "Lactic Acid Bacilus Dispersiorie Tablets",
+    "category": "ANTI-INFLAMATORY & ANALGESICS",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Tablets",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 45,
+    "type": "SYP",
+    "name": "Paracetamol Syrup IP",
+    "category": "ANTI-INFLAMATORY & ANALGESICS",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Syrup",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 46,
+    "type": "TAB",
+    "name": "Nimesulide and Paracetamol Tablets",
+    "category": "ANTI-INFLAMATORY & ANALGESICS",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Tablets",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 47,
+    "type": "SPN",
+    "name": "Alson Suspension",
+    "category": "ANTIDIAORRHEALS & ANTHELMENTICS",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Other",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Suspension",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 48,
+    "type": "ORL",
+    "name": "Ondansetron Oral Solution",
+    "category": "ANTI-EMETIC / ANTIDIARRHEALS & ANTHELMINTICS",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "2 mg/5 ml (as per standard ondansetron oral solution formulation)",
+      "function": "Antiemetic",
+      "storageInstruction": "Store below 30°C, protect from light",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Oral Solution",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 49,
+    "type": "SYP",
+    "name": "Apectin Syrups",
+    "category": "APPETITE STIMULANTS & TONICS",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Appetite Stimulant",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Syrup",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 50,
+    "type": "SYP",
+    "name": "Tricholine Citrate and Sorbitol Syrup",
+    "category": "APPETITE STIMULANTS & TONICS",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Appetite Stimulant",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Syrup",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 51,
+    "type": "TAB",
+    "name": "AC Red Tablets",
+    "category": "ANTACID & ALKALINIZER",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Antacid",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Tablet",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 52,
+    "type": "TAB",
+    "name": "Rabeprazole Sodium and Domperidone Tablets",
+    "category": "ANTACID & ALKALINIZER",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Antacid / Anti-reflux",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Tablet",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 53,
+    "type": "SYP",
+    "name": "AC Red Syrups",
+    "category": "ANTACID & ALKALINIZER",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Antacid",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Syrup",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 54,
+    "type": "TAB",
+    "name": "Pantoprazole Tablets",
+    "category": "ANTACID & ALKALINIZER",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Proton Pump Inhibitor (Antacid)",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Tablet",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 55,
+    "type": "TAB",
+    "name": "Rebeprazole Sodium Tablets",
+    "category": "ANTACID & ALKALINIZER",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Proton Pump Inhibitor (Antacid)",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Tablet",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 56,
+    "type": "SYP",
+    "name": "Cough Syrup Respidil D",
+    "category": "EXPECTORANTS",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Expectorant",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Syrup",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 57,
+    "type": "SYP",
+    "name": "Trof B Syrups",
+    "category": "EXPECTORANTS",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Expectorant",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Syrup",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 58,
+    "type": "TAB",
+    "name": "Levocetirizine Tablets IP",
+    "category": "ANTI-ALLERGICS TABLETS",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Anti-allergic (Antihistamine)",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Tablet",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 59,
+    "type": "TAB",
+    "name": "Cetirizine Dihydrochloride Tablets",
+    "category": "ANTI-ALLERGICS TABLETS",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Anti-allergic (Antihistamine)",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Tablet",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 60,
+    "type": "SYP",
+    "name": "B Complex Replex Syrups",
+    "category": "MULTI-VITAMINS & MULTI MINERALS",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Vitamin B Complex Supplement",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Syrup",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 61,
+    "type": "ORL",
+    "name": "Sodium Feredetate Oral Solution BP",
+    "category": "MULTI-VITAMINS & MULTI MINERALS",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Iron Supplement / Anti-anemia",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Oral Solution",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 62,
+    "type": "TAB",
+    "name": "Redifer Up Tablets",
+    "category": "MULTI-VITAMINS & MULTI MINERALS",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Multivitamin / Hematinic",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Tablet",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 63,
+    "type": "TAB",
+    "name": "Calmag Z",
+    "category": "MULTI-VITAMINS & MULTI MINERALS",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Calcium + Magnesium + Zinc Supplement",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Tablet",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 64,
+    "type": "CAP",
+    "name": "B Complex and Zinc Fortified with Vitamin C Capsules",
+    "category": "MULTI-VITAMINS & MULTI MINERALS",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Multivitamin + Mineral Supplement",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Capsule",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 65,
+    "type": "TAB",
+    "name": "Calcium with Vitamin D3 and Minerals Tablets",
+    "category": "VITAMINS, PROTEINS & ANTI-OXIDANTS",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Calcium + Vitamin D3 Supplement",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Tablet",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 66,
+    "type": "TAB",
+    "name": "Calcium with Vitamin D3 Tablets",
+    "category": "VITAMINS, PROTEINS & ANTI-OXIDANTS",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Calcium + Vitamin D3 Supplement",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Tablet",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 67,
+    "type": "SYP",
+    "name": "Orion Syrups",
+    "category": "VITAMINS, PROTEINS & ANTI-OXIDANTS",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Multivitamin / Nutritional Syrup",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Syrup",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 68,
+    "type": "DRP",
+    "name": "Digestive Enzyme with Vitamin B Complex Drops",
+    "category": "VITAMINS, PROTEINS & ANTI-OXIDANTS",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Digestive Enzyme + Vitamin B Complex",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Drops",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 69,
+    "type": "SYP",
+    "name": "Redizym Effective Digestive Syrup",
+    "category": "VITAMINS, PROTEINS & ANTI-OXIDANTS",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Digestive Tonic",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Syrup",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 70,
+    "type": "TAB",
+    "name": "Disulfiram Tablets IP BROWN",
+    "category": "ANTI-ALCOHOLIC",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Alcohol De-addiction",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Tablet",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 71,
+    "type": "TAB",
+    "name": "Disulfiram Tablets IP WHITE",
+    "category": "ANTI-ALCOHOLIC",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Alcohol De-addiction",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Tablet",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 72,
+    "type": "TAB",
+    "name": "Sitlin Plus Tablets",
+    "category": "ANTIDEPRESSANTS",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Antidepressant / CNS Agent",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Tablet",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 73,
+    "type": "TAB",
+    "name": "Chlordiazepoxide And Amitriptyline Tablets",
+    "category": "ANTIDEPRESSANTS",
+    "price": "1000 INR/Box",
+    "details": {
+      "dosage": "",
+      "function": "Antidepressant / Anxiolytic Combination",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "100 Boxes Per Day",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Tablet",
+      "deliveryTime": "2-3 Days"
+    }
+  },
+  {
+    "id": 74,
+    "type": "TAB",
+    "name": "Amlodipine Besilate Tablets",
+    "category": "CARDIAC RANGE",
+    "price": "",
+    "details": {
+      "dosage": "",
+      "function": "Antihypertensive / Calcium Channel Blocker",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Tablet",
+      "deliveryTime": ""
+    }
+  },
+  {
+    "id": 75,
+    "type": "TAB",
+    "name": "K-Tab Potassium Chloride Tablets",
+    "category": "CARDIAC RANGE",
+    "price": "",
+    "details": {
+      "dosage": "",
+      "function": "Potassium Supplement / Electrolyte Replacement",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Tablet",
+      "deliveryTime": ""
+    }
+  },
+  {
+    "id": 76,
+    "type": "TAB",
+    "name": "Atenolol Tablets IP",
+    "category": "CARDIAC RANGE",
+    "price": "",
+    "details": {
+      "dosage": "",
+      "function": "Beta Blocker / Antihypertensive",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Tablet",
+      "deliveryTime": ""
+    }
+  },
+  {
+    "id": 77,
+    "type": "TAB",
+    "name": "Amlodipine and Atenolol Tablets",
+    "category": "CARDIAC RANGE",
+    "price": "",
+    "details": {
+      "dosage": "",
+      "function": "Combination Antihypertensive (Calcium Channel Blocker + Beta Blocker)",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Tablet",
+      "deliveryTime": ""
+    }
+  },
+  {
+    "id": 78,
+    "type": "TAB",
+    "name": "Potassium Chloride Tablets",
+    "category": "CARDIAC RANGE",
+    "price": "",
+    "details": {
+      "dosage": "",
+      "function": "Electrolyte Supplement / Hypokalemia Treatment",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Tablet",
+      "deliveryTime": ""
+    }
+  },
+  {
+    "id": 79,
+    "type": "TAB",
+    "name": "Amlodipine Besilate Tablets (Variant)",
+    "category": "CARDIAC RANGE",
+    "price": "",
+    "details": {
+      "dosage": "",
+      "function": "Antihypertensive / Calcium Channel Blocker",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "",
+      "drugType": "Generic Drugs",
+      "physicalForm": "Tablet",
+      "deliveryTime": ""
+    }
+  },
+  {
+    "id": 80,
+    "type": "OIL",
+    "name": "Fuel Additives",
+    "category": "OIL ADDITIVES",
+    "price": "",
+    "details": {
+      "dosage": "",
+      "function": "Fuel Performance Enhancer / Combustion Improvement Additive",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "",
+      "drugType": "Industrial Chemical Additive",
+      "physicalForm": "Liquid",
+      "deliveryTime": ""
+    }
+  },
+  {
+    "id": 81,
+    "type": "OIL",
+    "name": "Oil Additive",
+    "category": "OIL ADDITIVES",
+    "price": "",
+    "details": {
+      "dosage": "",
+      "function": "Lubrication Improvement / Engine Protection Additive",
+      "storageInstruction": "Dry Place",
+      "supplyAbility": "",
+      "drugType": "Industrial Chemical Additive",
+      "physicalForm": "Liquid",
+      "deliveryTime": ""
+    }
+  }
+  ]
