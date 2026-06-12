@@ -4,6 +4,7 @@
     "type": "TAB",
     "name": "Amlocar-5 Tablets",
     "category": "Pharmaceutical Tablets",
+    "image": "https://cpimg.tistatic.com/02227457/b/4/Amlocar-5-Tablets.jpg",
     "price": "1000 INR/Bottle",
     "details": {
       "dosage": "5 Mg",
@@ -20,6 +21,7 @@
     "type": "TAB",
     "name": "Chlordiazepoxide And Amitriptyline Tablets",
     "category": "Pharmaceutical Tablets",
+    "image": "https://cpimg.tistatic.com/02227554/b/4/Chlordiaze…iptyline-Tablets-to-Treats-Depression-Anxiety.jpg",
     "price": "1000 INR/Bottle",
     "details": {
       "dosage": "",
@@ -35,6 +37,7 @@
     "id": 3,
     "type": "TAB",
     "name": "Redifer Up Tablet",
+    "image": "https://cpimg.tistatic.com/02227482/b/4/Redifer-Up-Tablet.jpg",
     "category": "Pharmaceutical Tablets",
     "price": "1000 INR/Bottle",
     "details": {
@@ -52,6 +55,7 @@
     "type": "TAB",
     "name": "Disulfiram Tablets IP Tablets",
     "category": "Pharmaceutical Tablets",
+    "image": "https://cpimg.tistatic.com/02227484/b/4/Disulfiram-Tablets-IP-Tablets-250mg-or-500mg.jpg",
     "price": "1000 INR/Bottle",
     "details": {
       "dosage": "250-500 Mg",
@@ -68,6 +72,7 @@
     "type": "TAB",
     "name": "Progesterone Tablets Hyprone 200MG",
     "category": "Pharmaceutical Tablets",
+    "image": "https://cpimg.tistatic.com/00297546/b/3/Progesterone-Tablets-Hyprone-200MG.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "200 Mg",
@@ -84,6 +89,7 @@
     "type": "CAP",
     "name": "Multi Vitamins Capsules",
     "category": "Pharmaceutical Capsules",
+    "image": "https://cpimg.tistatic.com/02227714/b/6/Multi-Vitamins-Capsules.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -100,6 +106,7 @@
     "type": "SYP",
     "name": "Stroncil Gum Paint Syrup",
     "category": "Medical Syrup",
+    "image": "https://cpimg.tistatic.com/02227754/b/6/Stroncil-Gum-Paint-Syrup.jpg",
     "price": "1000 INR/Bottle",
     "details": {
       "dosage": "15 ML",
@@ -116,6 +123,7 @@
     "type": "SYP",
     "name": "Paracetomol Oral Suspension Remol Syrup",
     "category": "Medical Syrup",
+    "image": "https://cpimg.tistatic.com/02227639/b/5/Paracetomol-Oral-Suspension-Remol-Syrup.jpg",
     "price": "1000 INR/Bottle",
     "details": {
       "dosage": "60 ML",
@@ -132,6 +140,7 @@
     "type": "SYP",
     "name": "Protoplan-Z Syrup",
     "category": "Medical Syrup",
+    "image": "https://cpimg.tistatic.com/00299100/b/3/Protoplan-Z-Syrup.jpg",
     "price": "1000 INR/Bottle",
     "details": {
       "dosage": "200 ML",
@@ -148,6 +157,7 @@
     "type": "SYP",
     "name": "Scabion Syrups",
     "category": "Medical Syrup",
+    "image": "https://cpimg.tistatic.com/02227828/b/5/Scabion-Syrups.jpg",
     "price": "1000 INR/Bottle",
     "details": {
       "dosage": "100 ML",
@@ -164,6 +174,7 @@
     "type": "SYP",
     "name": "Lindane Lotion USP Scabion",
     "category": "Medical Syrup",
+    "image": "https://cpimg.tistatic.com/02227841/b/5/Lindane-Lotion-USP-Scabion.jpg",
     "price": "1000 INR/Bottle",
     "details": {
       "dosage": "100 ML",
@@ -180,6 +191,7 @@
     "type": "SYP",
     "name": "Sucralfate Suspension Sucid",
     "category": "Medical Syrup",
+    "image": "https://cpimg.tistatic.com/02227752/b/5/Sucralfate-Suspension-Sucid.jpg",
     "price": "1000 INR/Bottle",
     "details": {
       "dosage": "200 ML",
@@ -196,6 +208,7 @@
     "type": "SYP",
     "name": "Custom Syrups Manufacturers",
     "category": "Medical Syrup",
+    "image": "https://cpimg.tistatic.com/02227452/b/4/Custom-Syrups-Manufacturers.jpg",
     "price": "1000 INR/Bottle",
     "details": {
       "dosage": "",
@@ -212,6 +225,7 @@
     "type": "SYP",
     "name": "Cough Syrup Respidil-D",
     "category": "Medical Syrup",
+    "image": "https://cpimg.tistatic.com/02227637/b/5/Cough-Syrup-Respidil-D.jpg",
     "price": "1000 INR/Bottle",
     "details": {
       "dosage": "100 ML",
@@ -228,6 +242,7 @@
     "type": "SYP",
     "name": "Trof B Cough Syrups",
     "category": "Medical Syrup",
+    "image": "https://cpimg.tistatic.com/02227653/b/5/Trof-B-Cough-Syrups.jpg",
     "price": "1000 INR/Bottle",
     "details": {
       "dosage": "100 ML",
@@ -244,6 +259,7 @@
     "type": "SYP",
     "name": "Disodium Hydrogen Citrate Syrups",
     "category": "Medical Syrup",
+    "image": "https://cpimg.tistatic.com/02227751/b/5/Disodium-Hydrogen-Citrate-Syrups.jpg",
     "price": "1000 INR/Bottle",
     "details": {
       "dosage": "15-30 ML",
@@ -260,6 +276,7 @@
     "type": "SYP",
     "name": "Pyoson F Syrups",
     "category": "Medical Syrup",
+    "image": "https://cpimg.tistatic.com/02227762/b/5/Pyoson-F-Syrups.jpg",
     "price": "1000 INR/Bottle",
     "details": {
       "dosage": "100 ML",
@@ -276,6 +293,7 @@
     "type": "SYP",
     "name": "Chlorhexidine Gluconate",
     "category": "Medical Syrup",
+    "image": "https://cpimg.tistatic.com/02227784/b/5/Chlorhexidine-Gluconate.jpg",
     "price": "1000 INR/Bottle",
     "details": {
       "dosage": "100 ML",
@@ -292,6 +310,7 @@
     "type": "CRM",
     "name": "Beclomethasone Gentamicin tolnaftate Iodochlorhydr",
     "category": "Pharmaceutical Cream & Ointments",
+    "image": "https://cpimg.tistatic.com/02227769/b/5/Beclomethasone-Gentamicin-tolnaftate-Iodochlorhydr.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -308,6 +327,7 @@
     "type": "CRM",
     "name": "Foaming Toot Paste",
     "category": "Pharmaceutical Cream & Ointments",
+    "image": "https://cpimg.tistatic.com/02227814/b/4/Foaming-Toot-Paste.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -324,6 +344,7 @@
     "type": "CRM",
     "name": "Potassium Nitrate Gel Pyoson K Gel",
     "category": "Pharmaceutical Cream & Ointments",
+    "image": "https://cpimg.tistatic.com/02227817/b/4/Potassium-Nitrate-Gel-Pyoson-K-Gel.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -340,6 +361,7 @@
     "type": "CRM",
     "name": "Sodium Fusidate Ointment BP",
     "category": "Pharmaceutical Cream & Ointments",
+    "image": "https://cpimg.tistatic.com/02227800/b/5/Sodium-Fusidate-Ointment-BP.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -356,6 +378,7 @@
     "type": "CRM",
     "name": "Analgesic Rubefacient Ointment Cream",
     "category": "Pharmaceutical Cream & Ointments",
+    "image": "https://cpimg.tistatic.com/02227789/b/4/Analgesic-Rubefacient-Ointment-Cream.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -372,6 +395,7 @@
     "type": "TAB",
     "name": "Pharmaceutical Formulations",
     "category": "Pharmaceutical Formulations",
+    "image": "https://cpimg.tistatic.com/02227472/b/4/Pharmaceutical-Formulations.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -388,6 +412,7 @@
     "type": "TAB",
     "name": "Misoprost-200 Tablet",
     "category": "Pharmaceutical Formulations",
+    "image": "https://cpimg.tistatic.com/00297557/b/3/Misoprost-200-Tablet.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "200 Mcg",
@@ -404,6 +429,7 @@
     "type": "TAB",
     "name": "Ofloxacin Tablets to Treat Various Bacterial Infections",
     "category": "Pharmaceutical Formulations",
+    "image": "https://cpimg.tistatic.com/00299099/b/3/Ofloxacin-Tablets-to-Treat-Various-Bacterial-Infections.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -420,6 +446,7 @@
     "type": "API",
     "name": "READY MIX CLEAR FILM COATING API",
     "category": "API",
+    "image": "https://cpimg.tistatic.com/05764627/b/4/READY-MIX-CLEAR-FILM-COATING-API.jpg",
     "price": "1000 INR/Bottle",
     "details": {
       "dosage": "",
@@ -436,6 +463,7 @@
     "type": "TAB",
     "name": "Azithromycin Tablets",
     "category": "ANTIBACTERIAL Tablets",
+    "image": "https://cpimg.tistatic.com/02227687/b/4/Azithromycin-Tablets.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -452,6 +480,7 @@
     "type": "TAB",
     "name": "Ofcil OR Syrups",
     "category": "ANTIBACTERIAL Tablets",
+    "image": "https://cpimg.tistatic.com/02227761/b/5/Ofcil-OR-Syrups.jpg",
     "price": "1000 INR/Bottle",
     "details": {
       "dosage": "",
@@ -468,6 +497,7 @@
     "type": "TAB",
     "name": "Levofloxacin Tablets",
     "category": "ANTIBACTERIAL Tablets",
+    "image": "https://cpimg.tistatic.com/02227677/b/4/Levofloxacin-Tablets.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -484,6 +514,7 @@
     "type": "TAB",
     "name": "Ofloxacin and Ornidazole Tablets",
     "category": "ANTIBACTERIAL Tablets",
+    "image": "https://cpimg.tistatic.com/02227590/b/4/Ofloxacin-Ornidazole-Tablets.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -500,6 +531,7 @@
     "type": "TAB",
     "name": "Ciprofloxacin Hydrochloride Tablets IP",
     "category": "ANTIBACTERIAL Tablets",
+    "image": "https://cpimg.tistatic.com/02227608/b/4/Ciprofloxacin-Hydrochloride-Tablets-IP.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -516,6 +548,7 @@
     "type": "TAB",
     "name": "Azit 500 Tablets",
     "category": "ANTIBACTERIAL Tablets",
+    "image": "https://cpimg.tistatic.com/02227487/b/5/Azit-500-Tablets.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "500 Mg",
@@ -532,6 +565,7 @@
     "type": "TAB",
     "name": "Ofloxacin Antibiotic Tablets",
     "category": "ANTIBACTERIAL Tablets",
+    "image": "https://cpimg.tistatic.com/02227557/b/4/Ofloxacin-Antibiotic-Tablets.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -548,6 +582,7 @@
     "type": "TAB",
     "name": "Moxired Syrups",
     "category": "ANTIBIOTIC Tablet",
+    "image": "https://cpimg.tistatic.com/02227771/b/5/Moxired-Syrups.jpg",
     "price": "1000 INR/Bottle",
     "details": {
       "dosage": "",
@@ -564,6 +599,7 @@
     "type": "TAB",
     "name": "Cefixime Tablets",
     "category": "ANTIBIOTIC Tablet",
+    "image": "https://cpimg.tistatic.com/02227671/b/4/Cefixime-Tablets.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -580,6 +616,7 @@
     "type": "TAB",
     "name": "Cefpodoxime Proxetil",
     "category": "ANTIBIOTIC Tablet",
+    "image": "https://cpimg.tistatic.com/02227587/b/5/Cefpodoxime-Proxetil.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -596,6 +633,7 @@
     "type": "TAB",
     "name": "Cetpodoxime Proxetil Dispersible Tablets",
     "category": "ANTIBIOTIC Tablet",
+    "image": "https://cpimg.tistatic.com/02227605/b/5/Cetpodoxime-Proxetil-Dispersible-Tablets.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -612,6 +650,7 @@
     "type": "CAP",
     "name": "Remol Plus",
     "category": "ANTI-INFLAMATORY & ANALGESICS",
+    "image": "https://cpimg.tistatic.com/02227783/b/5/Remol-Plus.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -628,6 +667,7 @@
     "type": "TAB",
     "name": "Nimesulide Tablets",
     "category": "ANTI-INFLAMATORY & ANALGESICS",
+    "image": "https://cpimg.tistatic.com/02227559/b/4/Nimesulide-Tablets.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -644,6 +684,7 @@
     "type": "TAB",
     "name": "Lactic Acid Bacillus Disersible Tablets",
     "category": "ANTI-INFLAMATORY & ANALGESICS",
+    "image": "https://cpimg.tistatic.com/02227573/b/5/Lactic-Acid-Bacillus-Disersible-Tablets.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -660,6 +701,7 @@
     "type": "TAB",
     "name": "Acered Tablets",
     "category": "ANTI-INFLAMATORY & ANALGESICS",
+    "image": "https://cpimg.tistatic.com/02227589/b/4/Acered-Tablets.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -676,6 +718,7 @@
     "type": "TAB",
     "name": "Serratiopeptidase with Diclofenac Sodium Tablets",
     "category": "ANTI-INFLAMATORY & ANALGESICS",
+    "image": "https://cpimg.tistatic.com/02227741/b/4/Serratiopeptidase-with-Diclofenac-Sodium-Tablets.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -692,6 +735,7 @@
     "type": "TAB",
     "name": "Lactic Acid Bacilus Dispersiorie Tablets",
     "category": "ANTI-INFLAMATORY & ANALGESICS",
+    "image": "https://cpimg.tistatic.com/02227658/b/4/Lactic-Acid-Bacilus-Dispersiorie-Tablets.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -708,6 +752,7 @@
     "type": "SYP",
     "name": "Paracetamol Syrup IP",
     "category": "ANTI-INFLAMATORY & ANALGESICS",
+    "image": "https://cpimg.tistatic.com/02227640/b/5/Paracetamol-Syrup-IP.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -724,6 +769,7 @@
     "type": "TAB",
     "name": "Nimesulide and Paracetamol Tablets",
     "category": "ANTI-INFLAMATORY & ANALGESICS",
+    "image": "https://cpimg.tistatic.com/02227559/b/4/Nimesulide-Tablets.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -740,6 +786,7 @@
     "type": "SPN",
     "name": "Alson Suspension",
     "category": "ANTIDIAORRHEALS & ANTHELMENTICS",
+    "image": "https://cpimg.tistatic.com/02227774/b/5/Alson-Suspension.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -756,6 +803,7 @@
     "type": "ORL",
     "name": "Ondansetron Oral Solution",
     "category": "ANTI-EMETIC / ANTIDIARRHEALS & ANTHELMINTICS",
+    "image": "https://cpimg.tistatic.com/02227859/b/5/Ondansetron-Oral-Solution.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "2 mg/5 ml (as per standard ondansetron oral solution formulation)",
@@ -772,6 +820,7 @@
     "type": "SYP",
     "name": "Apectin Syrups",
     "category": "APPETITE STIMULANTS & TONICS",
+    "image": "https://cpimg.tistatic.com/02227776/b/5/Apectin-Syrups.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -788,6 +837,7 @@
     "type": "SYP",
     "name": "Tricholine Citrate and Sorbitol Syrup",
     "category": "APPETITE STIMULANTS & TONICS",
+    "image": "https://cpimg.tistatic.com/02227860/b/5/Tncholine-Citrate-Sorbitol-Syup.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -804,6 +854,7 @@
     "type": "TAB",
     "name": "AC Red Tablets",
     "category": "ANTACID & ALKALINIZER",
+    "image": "https://cpimg.tistatic.com/02227856/b/5/AC-Red.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -820,6 +871,7 @@
     "type": "TAB",
     "name": "Rabeprazole Sodium and Domperidone Tablets",
     "category": "ANTACID & ALKALINIZER",
+    "image": "https://cpimg.tistatic.com/02227679/b/4/Rabeprazole-Sodium-Domperidone-Capsules.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -836,6 +888,7 @@
     "type": "SYP",
     "name": "AC Red Syrups",
     "category": "ANTACID & ALKALINIZER",
+    "image": "https://cpimg.tistatic.com/02227781/b/5/AC-Red-Syrups.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -852,6 +905,7 @@
     "type": "TAB",
     "name": "Pantoprazole Tablets",
     "category": "ANTACID & ALKALINIZER",
+    "image": "https://cpimg.tistatic.com/02227684/b/5/Pantoprazole-Tablets.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -868,6 +922,7 @@
     "type": "TAB",
     "name": "Rebeprazole Sodium Tablets",
     "category": "ANTACID & ALKALINIZER",
+    "image": "https://cpimg.tistatic.com/02227483/b/5/Rebeprazole-Sodium-Tablets.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -884,6 +939,7 @@
     "type": "SYP",
     "name": "Cough Syrup Respidil D",
     "category": "EXPECTORANTS",
+    "image": "https://cpimg.tistatic.com/02227753/b/5/Cough-Syrup-Respidil-D.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -900,6 +956,7 @@
     "type": "SYP",
     "name": "Trof B Syrups",
     "category": "EXPECTORANTS",
+    "image": "https://cpimg.tistatic.com/02227847/b/5/Trof-B-Syrups.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -916,6 +973,7 @@
     "type": "TAB",
     "name": "Levocetirizine Tablets IP",
     "category": "ANTI-ALLERGICS TABLETS",
+    "image": "https://cpimg.tistatic.com/02227620/b/4/Levocetirizine-Tablets-IP.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -932,6 +990,7 @@
     "type": "TAB",
     "name": "Cetirizine Dihydrochloride Tablets",
     "category": "ANTI-ALLERGICS TABLETS",
+    "image": "https://cpimg.tistatic.com/02227531/b/4/Cetirizne-Dihydrochloride-Tablets.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -948,6 +1007,7 @@
     "type": "SYP",
     "name": "B Complex Replex Syrups",
     "category": "MULTI-VITAMINS & MULTI MINERALS",
+    "image": "https://cpimg.tistatic.com/02227643/b/5/B-Complex-Replex-Syrups.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -964,6 +1024,7 @@
     "type": "ORL",
     "name": "Sodium Feredetate Oral Solution BP",
     "category": "MULTI-VITAMINS & MULTI MINERALS",
+    "image": "https://cpimg.tistatic.com/02227821/b/5/Sodium-Feredetate-Oral-Solution-BP.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -980,6 +1041,7 @@
     "type": "TAB",
     "name": "Redifer Up Tablets",
     "category": "MULTI-VITAMINS & MULTI MINERALS",
+    "image": "https://cpimg.tistatic.com/02227742/b/4/Redifer-Up-Tablets.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -996,6 +1058,7 @@
     "type": "TAB",
     "name": "Calmag Z",
     "category": "MULTI-VITAMINS & MULTI MINERALS",
+    "image": "https://cpimg.tistatic.com/02227852/b/5/Calmag-Z.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -1012,6 +1075,7 @@
     "type": "CAP",
     "name": "B Complex and Zinc Fortified with Vitamin C Capsules",
     "category": "MULTI-VITAMINS & MULTI MINERALS",
+    "image": "https://cpimg.tistatic.com/02227568/b/4/B-complex-Zinc-Fortified-with-Vitamin-C-Capsules.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -1028,6 +1092,7 @@
     "type": "TAB",
     "name": "Calcium with Vitamin D3 and Minerals Tablets",
     "category": "VITAMINS, PROTEINS & ANTI-OXIDANTS",
+    "image": "https://cpimg.tistatic.com/02227521/b/5/Calcium-with-Vitamin-D3-Minerals-Tablets.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -1044,6 +1109,7 @@
     "type": "TAB",
     "name": "Calcium with Vitamin D3 Tablets",
     "category": "VITAMINS, PROTEINS & ANTI-OXIDANTS",
+    "image": "https://cpimg.tistatic.com/02227743/b/4/Calcium-with-Vitamin-D3-Tablets.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -1060,6 +1126,7 @@
     "type": "SYP",
     "name": "Orion Syrups",
     "category": "VITAMINS, PROTEINS & ANTI-OXIDANTS",
+    "image": "https://cpimg.tistatic.com/02227825/b/5/Orion-Syrups.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -1076,6 +1143,7 @@
     "type": "DRP",
     "name": "Digestive Enzyme with Vitamin B Complex Drops",
     "category": "VITAMINS, PROTEINS & ANTI-OXIDANTS",
+    "image": "https://cpimg.tistatic.com/02227786/b/5/Digestive-Enzyme-with-Vitamin-B-Complex-Drops.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -1092,6 +1160,7 @@
     "type": "SYP",
     "name": "Redizym Effective Digestive Syrup",
     "category": "VITAMINS, PROTEINS & ANTI-OXIDANTS",
+    "image": "https://cpimg.tistatic.com/02227851/b/5/Redizym-Effective-Digestive-Syrup.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -1108,6 +1177,7 @@
     "type": "TAB",
     "name": "Disulfiram Tablets IP BROWN",
     "category": "ANTI-ALCOHOLIC",
+    "image": "https://cpimg.tistatic.com/02227533/b/4/Disulfiram-Tablets-IP-Tablets.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -1124,6 +1194,7 @@
     "type": "TAB",
     "name": "Disulfiram Tablets IP WHITE",
     "category": "ANTI-ALCOHOLIC",
+    "image": "https://cpimg.tistatic.com/02227717/b/5/Disulfiram-Tablets-IP.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -1140,6 +1211,7 @@
     "type": "TAB",
     "name": "Sitlin Plus Tablets",
     "category": "ANTIDEPRESSANTS",
+    "image": "https://cpimg.tistatic.com/02227672/b/5/Sitlin-Plus-Tablets.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -1156,6 +1228,7 @@
     "type": "TAB",
     "name": "Chlordiazepoxide And Amitriptyline Tablets",
     "category": "ANTIDEPRESSANTS",
+    "image": "https://cpimg.tistatic.com/02227721/b/5/Chlordiazepoxide-Amitriptyline-Tablets.jpg",
     "price": "1000 INR/Box",
     "details": {
       "dosage": "",
@@ -1172,6 +1245,7 @@
     "type": "TAB",
     "name": "Amlodipine Besilate Tablets",
     "category": "CARDIAC RANGE",
+    "image": "https://cpimg.tistatic.com/02227575/b/5/Amlodipine-Besilate-Tablets.jpg",
     "price": "",
     "details": {
       "dosage": "",
@@ -1188,6 +1262,7 @@
     "type": "TAB",
     "name": "K-Tab Potassium Chloride Tablets",
     "category": "CARDIAC RANGE",
+    "image": "https://cpimg.tistatic.com/02227486/b/4/K-Tab-Potassium-Chloride-Tablets.jpg",
     "price": "",
     "details": {
       "dosage": "",
@@ -1204,6 +1279,7 @@
     "type": "TAB",
     "name": "Atenolol Tablets IP",
     "category": "CARDIAC RANGE",
+    "image": "https://cpimg.tistatic.com/02227723/b/5/Atenolol-Tablets-IP.jpg",
     "price": "",
     "details": {
       "dosage": "",
@@ -1220,6 +1296,7 @@
     "type": "TAB",
     "name": "Amlodipine and Atenolol Tablets",
     "category": "CARDIAC RANGE",
+    "image": "https://cpimg.tistatic.com/02227607/b/4/Amlodipine-Atenolol-Tablets.jpg",
     "price": "",
     "details": {
       "dosage": "",
@@ -1236,6 +1313,7 @@
     "type": "TAB",
     "name": "Potassium Chloride Tablets",
     "category": "CARDIAC RANGE",
+    "image": "https://cpimg.tistatic.com/02227722/b/5/Potassium-Chloride-Tablets.jpg",
     "price": "",
     "details": {
       "dosage": "",
@@ -1252,6 +1330,7 @@
     "type": "TAB",
     "name": "Amlodipine Besilate Tablets (Variant)",
     "category": "CARDIAC RANGE",
+    "image": "https://cpimg.tistatic.com/02227575/b/5/Amlodipine-Besilate-Tablets.jpg",
     "price": "",
     "details": {
       "dosage": "",
@@ -1268,6 +1347,7 @@
     "type": "OIL",
     "name": "Fuel Additives",
     "category": "OIL ADDITIVES",
+    "image": "https://cpimg.tistatic.com/05764501/b/4/Fuel-Additives.jpg",
     "price": "",
     "details": {
       "dosage": "",
@@ -1284,6 +1364,7 @@
     "type": "OIL",
     "name": "Oil Additive",
     "category": "OIL ADDITIVES",
+    "image": "https://cpimg.tistatic.com/05764496/b/4/Oil-Additive.jpg",
     "price": "",
     "details": {
       "dosage": "",
