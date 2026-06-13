@@ -101,14 +101,27 @@ export default function ProductSection() {
       <section className="max-w-7xl mx-auto px-4 py-14">
 
         {/* HEADER */}
-        <div className="mb-10">
-          <h1 className="text-3xl font-bold text-slate-900">
-            Product Catalog
-          </h1>
-          <p className="text-slate-500 mt-1">
-            Search and explore pharmaceutical products instantly
-          </p>
-        </div>
+        <div className="mx-auto max-w-[620px] mb-6 text-center">
+            <p className="mb-4 text-sm font-semibold uppercase tracking-[0.4em] text-[var(--primary)]">
+              Our Portfolio
+            </p>
+  
+            <h2 className="text-5xl font-bold text-black md:text-6xl">
+              Product
+            </h2>
+  
+            <h3 className="font-serif text-5xl italic text-cyan-400 md:text-6xl">
+              Catalog
+            </h3>
+  
+            <div className="mx-auto mt-6 h-1 w-20 rounded-full bg-cyan-400" />
+  
+            <p className="mt-10 text-xl leading-relaxed text-slate-400">
+            Browse the full pharmaceutical catalogue by dosage form, therapeutic
+            category, or composition. Click any product to view detailed
+            formulation information.
+            </p>
+          </div>
 
         {/* SEARCH + SORT */}
         <div className="flex flex-col md:flex-row gap-3 mb-6">
