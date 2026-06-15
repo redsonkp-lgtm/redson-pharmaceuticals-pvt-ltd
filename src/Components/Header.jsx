@@ -18,14 +18,14 @@ export default function Header() {
   ];
 
   return (
-    <header className="bg-[#dbe8ee] z-100 py-0 lg:py-4">
-      <div className="mx-auto w-full lg:max-w-[1440px] h-[10vh] px-0 lg:px-4">
+    <header className="fixed w-full flex justify-center bg-linear-[180deg,white_75%,transparent] z-100 py-0 lg:py-2 lg:pb-6">
+      <div className=" mx-auto w-full lg:max-w-[1440px] h-[10vh] px-0 lg:px-4">
         {/* Main Header */}
         <div
             className={`relative z-1 flex h-full items-center justify-between rounded-0 lg:rounded-[40px] bg-white p-4 transition-all ease-in ${
             menuOpen
               ? "shadow-0 border-b-1"
-              : "shadow-md border-b-0"
+              : "shadow-xl border-b-0"
           }`}
         >
           
