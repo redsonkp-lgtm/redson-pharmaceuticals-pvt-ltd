@@ -55,7 +55,7 @@ export default function Hero() {
                 </span>
               </h1>
 
-              <p className="mt-6 max-w-xl text-base leading-relaxed text-slate-600 md:text-lg">
+              <p className="mt-6 max-w-3xl text-base leading-relaxed text-slate-600 md:text-lg">
                 REDSON Pharmaceuticals Private Limited is a trusted
                 pharmaceutical manufacturer, exporter, and supplier
                 specializing in tablets, capsules, injectables,
@@ -66,7 +66,7 @@ export default function Hero() {
 
             {/* CTA */}
             <div className="mt-6 flex flex-wrap gap-4">
-              <button className="group flex items-center gap-2 rounded-full bg-slate-900 px-6 py-3.5 text-sm font-semibold text-white transition-all hover:-translate-y-0.5 hover:bg-slate-800">
+              <button className="group flex items-center gap-2 rounded-full bg-black border-[2px] border-[black] px-6 py-3.5 text-sm font-semibold text-white hover:text-black transition-all duration-500 hover:-translate-y-0.5 hover:bg-transparent">
                 Request Manufacturing Quote
 
                 <ArrowRight
@@ -75,7 +75,7 @@ export default function Hero() {
                 />
               </button>
 
-              <button className="rounded-full border border-slate-300 bg-white px-6 py-3.5 text-sm font-semibold text-slate-800 transition hover:bg-slate-50">
+              <button className="rounded-full border-[2px] border-[black] bg-white px-6 py-3.5 text-sm font-semibold text-slate-800 transition hover:bg-slate-50">
                 Download Company Profile
               </button>
             </div>
@@ -111,7 +111,7 @@ export default function Hero() {
             {/* Main Image */}
             <div className="overflow-hidden rounded-[32px] border border-slate-200 bg-slate-100 shadow-[0_25px_60px_rgba(15,23,42,0.12)]">
               <Image
-                src="/images/pharma-manufacturing.jpg"
+                src="/temp-img-01.png"
                 alt="REDSON Pharmaceuticals Manufacturing Facility"
                 width={900}
                 height={1000}
@@ -157,7 +157,7 @@ export default function Hero() {
         </div>
 
         {/* Bottom Highlight Strip */}
-        <div className="mt-20 overflow-hidden rounded-[32px] border border-slate-200 bg-gradient-to-r from-slate-900 via-slate-850 to-slate-800 p-8 text-white md:p-10">
+        <div className="mt-20 overflow-hidden rounded-[32px] border border-slate-200 bg-black p-8 text-white md:p-10">
           <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-center">
             <div>
               <p className="mb-3 text-[11px] font-bold uppercase tracking-[0.3em] text-white/60">

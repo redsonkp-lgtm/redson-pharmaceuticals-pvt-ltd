@@ -12,7 +12,7 @@ const capabilities = [
 {
 title: "Tablet Manufacturing",
 subtitle: "Precision Solid Dosage Forms",
-image: "/images/tablets.jpg",
+image: "/temp-img-01.png",
 description:
 "Manufacturing solutions for coated tablets, chewable tablets, dispersible tablets, and sustained-release formulations.",
 features: [
@@ -25,7 +25,7 @@ features: [
 {
 title: "Capsule Manufacturing",
 subtitle: "Reliable Capsule Production",
-image: "/images/capsules.jpg",
+image: "/temp-img-01.png",
 description:
 "Hard gelatin capsules and specialized formulations manufactured with strict quality controls and batch consistency.",
 features: [
@@ -38,7 +38,7 @@ features: [
 {
 title: "Injectable Manufacturing",
 subtitle: "Sterile & Critical Care Solutions",
-image: "/images/injectables.jpg",
+image: "/temp-img-01.png",
 description:
 "Sterile manufacturing processes designed for injectable formulations with quality assurance at every stage.",
 features: [
@@ -51,7 +51,7 @@ features: [
 {
 title: "Liquid Oral Manufacturing",
 subtitle: "Pediatric & Adult Formulations",
-image: "/images/liquid-orals.jpg",
+image: "/temp-img-01.png",
 description:
 "Comprehensive manufacturing of syrups, suspensions, and oral liquid formulations.",
 features: [
@@ -64,7 +64,7 @@ features: [
 {
 title: "Eye Drops",
 subtitle: "Specialized Ophthalmic Manufacturing",
-image: "/images/eyedrops.jpg",
+image: "/temp-img-01.png",
 description:
 "Sterile ophthalmic manufacturing supported by advanced quality systems and regulatory compliance.",
 features: [
@@ -77,7 +77,7 @@ features: [
 {
 title: "Veterinary Products",
 subtitle: "Animal Healthcare Solutions",
-image: "/images/veterinary.jpg",
+image: "/temp-img-01.png",
 description:
 "Manufacturing support for veterinary healthcare formulations and private-label animal health products.",
 features: [

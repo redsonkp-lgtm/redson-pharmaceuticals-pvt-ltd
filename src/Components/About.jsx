@@ -93,7 +93,7 @@ return (
       <div className="relative">
         <div className="overflow-hidden rounded-[32px] border border-slate-200 bg-slate-100 shadow-[0_25px_60px_rgba(15,23,42,0.12)]">
           <Image
-            src="/images/about-manufacturing.jpg"
+            src="/temp-img-01.png"
             alt="REDSON Manufacturing Facility"
             width={900}
             height={1000}
