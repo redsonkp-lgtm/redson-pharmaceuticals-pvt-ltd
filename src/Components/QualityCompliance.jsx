@@ -3,106 +3,235 @@ import {
   FlaskConical,
   FileCheck,
   ArrowRight,
-  } from "lucide-react";
-  
-  const qualityItems = [
+} from "lucide-react";
+
+const qualityItems = [
   {
-  icon: ShieldCheck,
-  title: "Quality Assurance",
-  description:
-  "Comprehensive quality assurance systems integrated throughout every stage of manufacturing to ensure consistency, safety, and reliability.",
+    icon: ShieldCheck,
+    title: "Quality Assurance",
+    description:
+      "Comprehensive quality assurance systems integrated throughout every stage of manufacturing to ensure consistency, safety, and reliability.",
   },
   {
-  icon: FlaskConical,
-  title: "Quality Control",
-  description:
-  "Dedicated testing protocols, analytical evaluations, and batch validation processes maintain strict pharmaceutical quality standards.",
+    icon: FlaskConical,
+    title: "Quality Control",
+    description:
+      "Dedicated testing protocols, analytical evaluations, and batch validation processes maintain strict pharmaceutical quality standards.",
   },
   {
-  icon: FileCheck,
-  title: "Regulatory Compliance",
-  description:
-  "Documentation-driven manufacturing practices designed to support regulatory requirements and customer confidence.",
+    icon: FileCheck,
+    title: "Regulatory Compliance",
+    description:
+      "Documentation-driven manufacturing practices designed to support regulatory requirements and customer confidence.",
   },
-  ];
-  
-  export default function QualityCompliance() {
+];
+
+export default function QualityCompliance() {
   return (
-  <section className="relative overflow-hidden bg-white py-20 lg:py-24">
-    {/* Background Effects */}
-   <div className="absolute left-0 top-0 h-[400px] w-[400px] rounded-full bg-[var(--primary)]/5 blur-[120px]" />
-    <div className="absolute right-0 bottom-0 h-[300px] w-[300px] rounded-full bg-blue-100/40 blur-[100px]" />
-    <div className="relative mx-auto max-w-[1400px] px-6 lg:px-10">
-      <div className="grid items-center gap-12 lg:grid-cols-[0.9fr_1.1fr]">
-        {/* Left Content */}
-        <div>
-          <div className="inline-flex items-center rounded-full border border-[var(--primary)]/15 bg-[var(--primary)]/5 px-4 py-2.5">
-            <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[var(--primary)]">
-              Quality & Compliance
-            </span>
+    <section className="relative overflow-hidden bg-white py-16 lg:py-20">
+      {/* Background Effects */}
+      <div className="absolute left-0 top-0 h-[360px] w-[360px] rounded-full bg-[var(--primary)]/5 blur-[110px]" />
+      <div className="absolute right-0 bottom-0 h-[260px] w-[260px] rounded-full bg-blue-100/40 blur-[90px]" />
+
+      <div className="relative mx-auto max-w-[1400px] px-6 lg:px-10">
+        <div className="grid items-start gap-14 lg:grid-cols-[0.9fr_1.1fr]">
+          {/* Left Content */}
+          <div>
+            <div className="inline-flex items-center rounded-full border border-[var(--primary)]/15 bg-[var(--primary)]/5 px-4 py-2.5">
+              <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[var(--primary)]">
+                Quality & Compliance
+              </span>
+            </div>
+
+            <h2 className="mt-6 text-4xl font-bold leading-[0.95] tracking-[-0.04em] text-slate-900 md:text-6xl xl:text-[64px]">
+              Quality Built
+              <br />
+              Into Every Batch.
+            </h2>
+
+            <p className="mt-6 max-w-xl text-base leading-relaxed text-slate-600 md:text-lg">
+              At REDSON Pharmaceuticals, quality is integrated into every
+              stage of manufacturing. From raw material evaluation to final
+              product release, our systems are designed to maintain
+              consistency, safety, and regulatory compliance.
+            </p>
+
+            <button className="group mt-8 inline-flex items-center gap-2 rounded-full bg-slate-900 px-6 py-3.5 text-sm font-semibold text-white transition-all duration-500 hover:-translate-y-0.5 hover:bg-slate-800">
+              Learn More
+
+              <ArrowRight
+                size={16}
+                className="transition-transform group-hover:translate-x-1"
+              />
+            </button>
           </div>
-  
-          <h2 className="mt-6 text-4xl font-bold leading-[0.95] tracking-[-0.04em] text-slate-900 md:text-6xl xl:text-[64px]">
-            Quality Built
-            <br />
-            Into Every Batch.
-          </h2>
-  
-          <p className="mt-6 max-w-xl text-base leading-relaxed text-slate-600 md:text-lg">
-            At REDSON Pharmaceuticals, quality is integrated into every
-            stage of manufacturing. From raw material evaluation to final
-            product release, our systems are designed to maintain
-            consistency, safety, and regulatory compliance.
-          </p>
-  
-          <button className="group mt-8 inline-flex items-center gap-2 rounded-full bg-slate-900 px-6 py-3.5 text-sm font-semibold text-white transition-all hover:-translate-y-0.5 hover:bg-slate-800">
-            Learn More
-  
-            <ArrowRight
-              size={16}
-              className="transition-transform group-hover:translate-x-1"
-            />
-          </button>
-        </div>
-  
-        {/* Right Cards */}
-        <div className="space-y-5">
-          {qualityItems.map((item) => {
-            const Icon = item.icon;
-  
-            return (
-              <div
-                key={item.title}
-                className="group rounded-[32px] border border-slate-200 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_20px_50px_rgba(15,23,42,0.08)]"
-              >
-                <div className="flex gap-4">
-                  <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-[var(--primary)]/10">
-                    <Icon
-                      size={24}
-                      className="text-[var(--primary)]"
-                    />
-                  </div>
-  
-                  <div>
-                    <h3 className="text-xl font-bold text-slate-900">
-                      {item.title}
-                    </h3>
-  
-                    <p className="mt-3 text-sm leading-7 text-slate-600">
-                      {item.description}
-                    </p>
-                  </div>
+
+          {/* Right Compliance Rail */}
+          <div className="relative items-center">
+            <div className="relative">
+              <div className="absolute left-6 top-0 bottom-0 w-px bg-[var(--primary)]" />
+                <div className="space-y-10">
+                  {qualityItems.map((item) => {
+                    const Icon = item.icon;
+
+                    return (
+                      <div
+                        key={item.title}
+                        className="relative flex gap-6"
+                      >
+                        {/* Icon Node */}
+                        <div className="relative z-10 flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-[var(--primary)] text-white shadow-lg">
+                          <Icon size={20} />
+                        </div>
+
+                        {/* Content */}
+                        <div className="pb-2">
+                          <h3 className="text-xl font-bold text-slate-900">
+                            {item.title}
+                          </h3>
+
+                          <p className="mt-3 max-w-xl text-sm leading-7 text-slate-600">
+                            {item.description}
+                          </p>
+                        </div>
+                      </div>
+                    );
+                  })}
                 </div>
               </div>
-            );
-          })}
+
+              {/* Bottom Highlight */}
+              <div className=" rounded-2xl border border-[var(--primary)] bg-slate-50 p-6">
+                <p className="text-[11px] font-bold uppercase tracking-[0.25em] text-[var(--primary)]">
+                  Process Driven Quality Systems
+                </p>
+
+                <p className="mt-3 text-sm leading-7 text-slate-600">
+                  Every batch undergoes structured quality checkpoints,
+                  analytical testing, and documentation review to maintain
+                  manufacturing consistency and product integrity.
+                </p>
+              </div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  
+    </section>
   );
-  }
+}
+
+
+
+
+
+
+
+
+
+// import {
+//   ShieldCheck,
+//   FlaskConical,
+//   FileCheck,
+//   ArrowRight,
+//   } from "lucide-react";
+  
+//   const qualityItems = [
+//   {
+//   icon: ShieldCheck,
+//   title: "Quality Assurance",
+//   description:
+//   "Comprehensive quality assurance systems integrated throughout every stage of manufacturing to ensure consistency, safety, and reliability.",
+//   },
+//   {
+//   icon: FlaskConical,
+//   title: "Quality Control",
+//   description:
+//   "Dedicated testing protocols, analytical evaluations, and batch validation processes maintain strict pharmaceutical quality standards.",
+//   },
+//   {
+//   icon: FileCheck,
+//   title: "Regulatory Compliance",
+//   description:
+//   "Documentation-driven manufacturing practices designed to support regulatory requirements and customer confidence.",
+//   },
+//   ];
+  
+//   export default function QualityCompliance() {
+//   return (
+//   <section className="relative overflow-hidden bg-white py-20 lg:py-24">
+//     {/* Background Effects */}
+//    <div className="absolute left-0 top-0 h-[400px] w-[400px] rounded-full bg-[var(--primary)]/5 blur-[120px]" />
+//     <div className="absolute right-0 bottom-0 h-[300px] w-[300px] rounded-full bg-blue-100/40 blur-[100px]" />
+//     <div className="relative mx-auto max-w-[1400px] px-6 lg:px-10">
+//       <div className="grid items-center gap-12 lg:grid-cols-[0.9fr_1.1fr]">
+//         {/* Left Content */}
+//         <div>
+//           <div className="inline-flex items-center rounded-full border border-[var(--primary)]/15 bg-[var(--primary)]/5 px-4 py-2.5">
+//             <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[var(--primary)]">
+//               Quality & Compliance
+//             </span>
+//           </div>
+  
+//           <h2 className="mt-6 text-4xl font-bold leading-[0.95] tracking-[-0.04em] text-slate-900 md:text-6xl xl:text-[64px]">
+//             Quality Built
+//             <br />
+//             Into Every Batch.
+//           </h2>
+  
+//           <p className="mt-6 max-w-xl text-base leading-relaxed text-slate-600 md:text-lg">
+//             At REDSON Pharmaceuticals, quality is integrated into every
+//             stage of manufacturing. From raw material evaluation to final
+//             product release, our systems are designed to maintain
+//             consistency, safety, and regulatory compliance.
+//           </p>
+  
+//           <button className="group mt-8 inline-flex items-center gap-2 rounded-full bg-slate-900 px-6 py-3.5 text-sm font-semibold text-white transition-all hover:-translate-y-0.5 hover:bg-slate-800">
+//             Learn More
+  
+//             <ArrowRight
+//               size={16}
+//               className="transition-transform group-hover:translate-x-1"
+//             />
+//           </button>
+//         </div>
+  
+//         {/* Right Cards */}
+//         <div className="space-y-5">
+//           {qualityItems.map((item) => {
+//             const Icon = item.icon;
+  
+//             return (
+//               <div
+//                 key={item.title}
+//                 className="group rounded-[32px] border border-slate-200 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_20px_50px_rgba(15,23,42,0.08)]"
+//               >
+//                 <div className="flex gap-4">
+//                   <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-[var(--primary)]/10">
+//                     <Icon
+//                       size={24}
+//                       className="text-[var(--primary)]"
+//                     />
+//                   </div>
+  
+//                   <div>
+//                     <h3 className="text-xl font-bold text-slate-900">
+//                       {item.title}
+//                     </h3>
+  
+//                     <p className="mt-3 text-sm leading-7 text-slate-600">
+//                       {item.description}
+//                     </p>
+//                   </div>
+//                 </div>
+//               </div>
+//             );
+//           })}
+//         </div>
+//       </div>
+//     </div>
+//   </section>
+  
+//   );
+//   }
   
 
 

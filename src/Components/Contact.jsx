@@ -7,140 +7,129 @@ import {
 
 export default function Contact() {
   return (
-    <section className="relative overflow-hidden bg-white py-20 lg:py-24">
+    <section className="relative overflow-hidden bg-white py-14 lg:py-16">
       {/* Background Glow */}
-      <div className="absolute left-0 top-0 h-[400px] w-[400px] rounded-full bg-[var(--primary)]/5 blur-[120px]" />
-      <div className="absolute right-0 bottom-0 h-[300px] w-[300px] rounded-full bg-blue-100/40 blur-[100px]" />
+      <div className="absolute left-0 top-0 h-[320px] w-[320px] rounded-full bg-[var(--primary)]/5 blur-[100px]" />
+      <div className="absolute right-0 bottom-0 h-[260px] w-[260px] rounded-full bg-blue-100/40 blur-[90px]" />
 
       <div className="relative mx-auto max-w-[1400px] px-6 lg:px-10">
-        <div className="grid gap-12 lg:grid-cols-[0.9fr_1.1fr]">
+        <div className="grid gap-10 lg:grid-cols-[0.85fr_1.15fr]">
           {/* Left Content */}
           <div>
-            <div className="inline-flex items-center rounded-full border border-[var(--primary)]/15 bg-[var(--primary)]/5 px-4 py-2.5">
+            <div className="inline-flex items-center rounded-full border border-[var(--primary)]/15 bg-[var(--primary)]/5 px-4 py-2">
               <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[var(--primary)]">
                 Contact Us
               </span>
             </div>
 
-            <h2 className="mt-6 text-4xl font-bold leading-[0.95] tracking-[-0.04em] text-slate-900 md:text-6xl xl:text-[64px]">
+            <h2 className="mt-5 text-3xl font-bold leading-[1] tracking-[-0.04em] text-slate-900 md:text-5xl xl:text-[54px]">
               Let's Discuss Your
               <br />
               Manufacturing Needs.
             </h2>
 
-            <p className="mt-6 max-w-xl text-base leading-relaxed text-slate-600 md:text-lg">
+            <p className="mt-4 max-w-lg text-sm leading-relaxed text-slate-600 md:text-base">
               Connect with REDSON Pharmaceuticals to explore contract
               manufacturing, private labeling, packaging solutions,
               export support, and pharmaceutical product development.
             </p>
 
             {/* Contact Cards */}
-            <div className="mt-8 space-y-4">
-              <div className="flex items-center gap-4 rounded-[24px] border border-slate-200 bg-white p-5 shadow-sm">
-                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[var(--primary)]/10">
-                  <Phone
-                    size={20}
-                    className="text-[var(--primary)]"
-                  />
-                </div>
+            <div className="mt-7 space-y-3">
+              {[
+                {
+                  icon: Phone,
+                  label: "Phone",
+                  value: "+91 8866003844",
+                },
+                {
+                  icon: Mail,
+                  label: "Email",
+                  value: "info@redsongroup.in",
+                },
+                {
+                  icon: MapPin,
+                  label: "Location",
+                  value: "Gandhinagar, Gujarat, India",
+                },
+              ].map((item) => {
+                const Icon = item.icon;
 
-                <div>
-                  <p className="text-xs font-semibold uppercase tracking-[0.15em] text-slate-500">
-                    Phone
-                  </p>
-                  <p className="font-semibold text-slate-900">
-                    +91 8866003844
-                  </p>
-                </div>
-              </div>
+                return (
+                  <div
+                    key={item.label}
+                    className="flex items-center gap-4 rounded-[20px] border border-slate-200 bg-white p-4"
+                  >
+                    <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[var(--primary)]/10">
+                      <Icon
+                        size={18}
+                        className="text-[var(--primary)]"
+                      />
+                    </div>
 
-              <div className="flex items-center gap-4 rounded-[24px] border border-slate-200 bg-white p-5 shadow-sm">
-                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[var(--primary)]/10">
-                  <Mail
-                    size={20}
-                    className="text-[var(--primary)]"
-                  />
-                </div>
+                    <div>
+                      <p className="text-[10px] font-semibold uppercase tracking-[0.15em] text-slate-500">
+                        {item.label}
+                      </p>
 
-                <div>
-                  <p className="text-xs font-semibold uppercase tracking-[0.15em] text-slate-500">
-                    Email
-                  </p>
-                  <p className="font-semibold text-slate-900">
-                    info@redsongroup.in
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-center gap-4 rounded-[24px] border border-slate-200 bg-white p-5 shadow-sm">
-                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-[var(--primary)]/10">
-                  <MapPin
-                    size={20}
-                    className="text-[var(--primary)]"
-                  />
-                </div>
-
-                <div>
-                  <p className="text-xs font-semibold uppercase tracking-[0.15em] text-slate-500">
-                    Location
-                  </p>
-                  <p className="font-semibold text-slate-900">
-                    Gandhinagar, Gujarat, India
-                  </p>
-                </div>
-              </div>
+                      <p className="text-sm font-semibold text-slate-900">
+                        {item.value}
+                      </p>
+                    </div>
+                  </div>
+                );
+              })}
             </div>
           </div>
 
           {/* Form */}
-          <div className="rounded-[32px] border border-slate-200 bg-white p-6 shadow-[0_20px_60px_rgba(15,23,42,0.08)] md:p-8">
-            <h3 className="text-2xl font-bold text-slate-900">
+          <div className="rounded-[28px] border border-slate-200 bg-white p-6 shadow-[0_20px_50px_rgba(15,23,42,0.06)] md:p-7">
+            <h3 className="text-xl font-bold text-slate-900">
               Send an Inquiry
             </h3>
 
             <p className="mt-2 text-sm text-slate-600">
-              Fill out the form below and our team will get back to
-              you shortly.
+              Fill out the form and our team will connect with you shortly.
             </p>
 
-            <form className="mt-6 space-y-4">
+            <form className="mt-5 space-y-4">
               <input
                 type="text"
                 placeholder="Full Name"
-                className="w-full rounded-2xl border border-slate-200 px-4 py-3.5 outline-none transition focus:border-[var(--primary)]"
+                className="w-full rounded-xl border border-slate-200 px-4 py-3 outline-none transition focus:border-[var(--primary)]"
               />
 
               <input
                 type="text"
                 placeholder="Company Name"
-                className="w-full rounded-2xl border border-slate-200 px-4 py-3.5 outline-none transition focus:border-[var(--primary)]"
+                className="w-full rounded-xl border border-slate-200 px-4 py-3 outline-none transition focus:border-[var(--primary)]"
               />
 
               <div className="grid gap-4 md:grid-cols-2">
                 <input
                   type="email"
                   placeholder="Email Address"
-                  className="w-full rounded-2xl border border-slate-200 px-4 py-3.5 outline-none transition focus:border-[var(--primary)]"
+                  className="w-full rounded-xl border border-slate-200 px-4 py-3 outline-none transition focus:border-[var(--primary)]"
                 />
 
                 <input
                   type="tel"
                   placeholder="Phone Number"
-                  className="w-full rounded-2xl border border-slate-200 px-4 py-3.5 outline-none transition focus:border-[var(--primary)]"
+                  className="w-full rounded-xl border border-slate-200 px-4 py-3 outline-none transition focus:border-[var(--primary)]"
                 />
               </div>
 
               <textarea
-                rows={5}
+                rows={4}
                 placeholder="Tell us about your requirements..."
-                className="w-full rounded-2xl border border-slate-200 px-4 py-3.5 outline-none transition focus:border-[var(--primary)]"
+                className="w-full rounded-xl border border-slate-200 px-4 py-3 outline-none transition focus:border-[var(--primary)]"
               />
 
-              <button className="group flex w-full items-center justify-center gap-2 rounded-2xl bg-slate-900 py-4 text-sm font-semibold text-white transition hover:bg-slate-800">
+              <button className="group flex w-full items-center justify-center gap-2 rounded-xl bg-slate-900 py-3.5 text-sm font-semibold text-white transition hover:bg-slate-800">
                 Send Inquiry
 
                 <ArrowRight
-                  size={16}
+                  size={15}
                   className="transition-transform group-hover:translate-x-1"
                 />
               </button>

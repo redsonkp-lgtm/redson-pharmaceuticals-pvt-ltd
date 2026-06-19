@@ -1,64 +1,225 @@
+import Link from "next/link";
+import {
+  Phone,
+  Mail,
+  MapPin,
+} from "lucide-react";
+
+const quickLinks = [
+  "About",
+  "Manufacturing",
+  "Quality",
+  "Services",
+  "Contact",
+];
+
+const divisions = [
+  "Tablets",
+  "Capsules",
+  "Injectables",
+  "Liquid Orals",
+  "Eye Drops",
+  "Veterinary Products",
+];
+
 export default function Footer() {
   return (
-    <footer className="bg-slate-950 border-t border-white/10">
-      <div className="mx-auto max-w-[1440px] px-6 py-20 lg:px-10">
-        <div className="grid gap-12 lg:grid-cols-4">
+    <footer className="relative overflow-hidden bg-slate-950 text-white">
+      {/* Background Glow */}
+      <div className="absolute left-0 top-0 h-[280px] w-[280px] rounded-full bg-[var(--primary)]/10 blur-[100px]" />
+      <div className="absolute right-0 bottom-0 h-[240px] w-[240px] rounded-full bg-[var(--primary)]/5 blur-[90px]" />
+
+      <div className="relative mx-auto max-w-[1400px] px-6 pt-14 pb-8 lg:px-10">
+        {/* Main Footer */}
+        <div className="grid gap-10 border-b border-white/10 pb-10 md:grid-cols-2 xl:grid-cols-4">
+          {/* Brand */}
           <div>
-            <h3 className="text-2xl font-bold text-white">
-              REDSON
+            <h3 className="text-2xl font-bold tracking-tight">
+              REDSON Pharmaceuticals
             </h3>
 
-            <p className="mt-4 text-slate-400">
-              Advancing Healthcare Through Quality &
-              Innovation.
+            <p className="mt-4 text-sm leading-7 text-slate-400">
+              Trusted pharmaceutical manufacturer, exporter, and supplier
+              delivering quality-focused healthcare solutions across
+              multiple dosage forms.
             </p>
           </div>
 
+          {/* Quick Links */}
           <div>
-            <h4 className="font-semibold text-white">
-              Company
+            <h4 className="text-sm font-semibold uppercase tracking-[0.2em] text-[var(--primary)]">
+              Quick Links
             </h4>
 
-            <div className="mt-4 space-y-3 text-slate-400">
-              <p>About</p>
-              <p>Capabilities</p>
-              <p>Quality</p>
-            </div>
+            <ul className="mt-4 space-y-3">
+              {quickLinks.map((link) => (
+                <li key={link}>
+                  <Link
+                    href={`#${link.toLowerCase()}`}
+                    className="text-sm text-slate-400 transition hover:text-white"
+                  >
+                    {link}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
 
+          {/* Divisions */}
           <div>
-            <h4 className="font-semibold text-white">
-              Services
+            <h4 className="text-sm font-semibold uppercase tracking-[0.2em] text-[var(--primary)]">
+              Manufacturing
             </h4>
 
-            <div className="mt-4 space-y-3 text-slate-400">
-              <p>Contract Manufacturing</p>
-              <p>Private Label</p>
-              <p>Exports</p>
-            </div>
+            <ul className="mt-4 space-y-3">
+              {divisions.map((item) => (
+                <li
+                  key={item}
+                  className="text-sm text-slate-400"
+                >
+                  {item}
+                </li>
+              ))}
+            </ul>
           </div>
 
+          {/* Contact */}
           <div>
-            <h4 className="font-semibold text-white">
+            <h4 className="text-sm font-semibold uppercase tracking-[0.2em] text-[var(--primary)]">
               Contact
             </h4>
 
-            <div className="mt-4 space-y-3 text-slate-400">
-              <p>+91 8866003844</p>
-              <p>info@redsongroup.in</p>
-              <p>Gandhinagar, Gujarat</p>
+            <div className="mt-4 space-y-4">
+              <div className="flex items-start gap-3">
+                <Phone
+                  size={16}
+                  className="mt-1 text-[var(--primary)]"
+                />
+                <span className="text-sm text-slate-400">
+                  +91 8866003844
+                </span>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <Mail
+                  size={16}
+                  className="mt-1 text-[var(--primary)]"
+                />
+                <span className="text-sm text-slate-400">
+                  info@redsongroup.in
+                </span>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <MapPin
+                  size={16}
+                  className="mt-1 text-[var(--primary)]"
+                />
+                <span className="text-sm text-slate-400">
+                  Gandhinagar, Gujarat, India
+                </span>
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="mt-16 border-t border-white/10 pt-8 text-center text-slate-500">
-          © 2026 REDSON Pharmaceuticals Private Limited.
-          All Rights Reserved.
+        {/* Bottom Strip */}
+        <div className="flex flex-col gap-4 pt-6 text-sm text-slate-500 md:flex-row md:items-center md:justify-between">
+          <p>
+            © {new Date().getFullYear()} REDSON Pharmaceuticals Private Limited.
+            All rights reserved.
+          </p>
+
+          <div className="flex gap-6">
+            <Link
+              href="/privacy-policy"
+              className="transition hover:text-white"
+            >
+              Privacy Policy
+            </Link>
+
+            <Link
+              href="/terms"
+              className="transition hover:text-white"
+            >
+              Terms & Conditions
+            </Link>
+          </div>
         </div>
       </div>
     </footer>
   );
 }
+
+
+
+
+
+
+
+
+
+// export default function Footer() {
+//   return (
+//     <footer className="bg-slate-950 border-t border-white/10">
+//       <div className="mx-auto max-w-[1440px] px-6 py-20 lg:px-10">
+//         <div className="grid gap-12 lg:grid-cols-4">
+//           <div>
+//             <h3 className="text-2xl font-bold text-white">
+//               REDSON
+//             </h3>
+
+//             <p className="mt-4 text-slate-400">
+//               Advancing Healthcare Through Quality &
+//               Innovation.
+//             </p>
+//           </div>
+
+//           <div>
+//             <h4 className="font-semibold text-white">
+//               Company
+//             </h4>
+
+//             <div className="mt-4 space-y-3 text-slate-400">
+//               <p>About</p>
+//               <p>Capabilities</p>
+//               <p>Quality</p>
+//             </div>
+//           </div>
+
+//           <div>
+//             <h4 className="font-semibold text-white">
+//               Services
+//             </h4>
+
+//             <div className="mt-4 space-y-3 text-slate-400">
+//               <p>Contract Manufacturing</p>
+//               <p>Private Label</p>
+//               <p>Exports</p>
+//             </div>
+//           </div>
+
+//           <div>
+//             <h4 className="font-semibold text-white">
+//               Contact
+//             </h4>
+
+//             <div className="mt-4 space-y-3 text-slate-400">
+//               <p>+91 8866003844</p>
+//               <p>info@redsongroup.in</p>
+//               <p>Gandhinagar, Gujarat</p>
+//             </div>
+//           </div>
+//         </div>
+
+//         <div className="mt-16 border-t border-white/10 pt-8 text-center text-slate-500">
+//           © 2026 REDSON Pharmaceuticals Private Limited.
+//           All Rights Reserved.
+//         </div>
+//       </div>
+//     </footer>
+//   );
+// }
 
 
 

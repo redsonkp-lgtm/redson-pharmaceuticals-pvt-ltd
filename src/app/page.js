@@ -9,6 +9,13 @@ import ProductSection from "@/Components/ProductSection";
 import QualityCompliance from "@/Components/QualityCompliance";
 import Services from "@/Components/Services";
 import WhyChooseUs from "@/Components/WhyChooseUs";
+import ResearchDevelopment from "@/Components/ResearchDevelopment";
+import Certifications from "@/Components/Certifications";
+import Gallery from "@/Components/Gallery";
+import FAQs from "@/Components/FAQs";
+import ContractManufacturing from "@/Components/ContractManufacturing";
+import ThirdPartyManufacturing from "@/Components/ThirdPartyManufacturing";
+import ExportServices from "@/Components/ExportServices";
 
 export default function Home() {
   return (
@@ -17,8 +24,15 @@ export default function Home() {
     <About/>
     {/* <ProductSection/> */}
     <ManufacturingDivisions/>
-    <QualityCompliance/>
     <Services/>
+    <ContractManufacturing/>
+    <ThirdPartyManufacturing/>
+    <ExportServices/>
+    <ResearchDevelopment/>
+    <QualityCompliance/>
+    <Certifications/>
+    <Gallery/>
+    <FAQs/>
     <WhyChooseUs/>
     <ManufacturingProcess/>
     <GlobalReach/>

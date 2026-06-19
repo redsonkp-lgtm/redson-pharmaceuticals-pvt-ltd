@@ -155,38 +155,6 @@ export default function Hero() {
             </div>
           </div>
         </div>
-
-        {/* Bottom Highlight Strip */}
-        <div className="mt-20 overflow-hidden rounded-[32px] border border-slate-200 bg-black p-8 text-white md:p-10">
-          <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-center">
-            <div>
-              <p className="mb-3 text-[11px] font-bold uppercase tracking-[0.3em] text-white/60">
-                Integrated Pharmaceutical Manufacturing
-              </p>
-
-              <h3 className="text-2xl font-bold leading-tight md:text-3xl">
-                Contract Manufacturing, Private Labeling &
-                Export Solutions Under One Trusted Partner
-              </h3>
-
-              <p className="mt-4 max-w-3xl text-base leading-relaxed text-white/70">
-                Advanced manufacturing infrastructure,
-                regulatory support, customized packaging,
-                quality assurance systems, and scalable
-                production capabilities for domestic and
-                international pharmaceutical markets.
-              </p>
-            </div>
-
-            <Link
-            href="#manufacturingcapabilities"
-            className="flex items-center gap-2 rounded-full bg-white px-6 py-3.5 text-sm font-semibold text-slate-900 transition hover:scale-[1.02]">
-              Explore Capabilities
-
-              <ArrowRight size={16} />
-            </Link>
-          </div>
-        </div>
       </div>
     </section>
   );
