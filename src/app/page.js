@@ -27,16 +27,16 @@ export default function Home() {
     <Services/>
     <ContractManufacturing/>
     <ThirdPartyManufacturing/>
-    <ExportServices/>
     <ResearchDevelopment/>
     <QualityCompliance/>
     <Certifications/>
+    <ExportServices/>
     <Gallery/>
     <FAQs/>
-    <WhyChooseUs/>
-    <ManufacturingProcess/>
-    <GlobalReach/>
-    <CTA/>
+    {/* <WhyChooseUs/> */}
+    {/* <ManufacturingProcess/> */}
+    {/* <GlobalReach/> */}
+    {/* <CTA/> */}
     <Contact/>
     </>
   );
