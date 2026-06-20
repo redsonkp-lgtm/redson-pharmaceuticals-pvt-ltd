@@ -37,17 +37,20 @@ export default function QualityCompliance() {
         <div className="grid items-start gap-14 lg:grid-cols-[0.9fr_1.1fr]">
           {/* Left Content */}
           <div>
-            <div className="inline-flex items-center rounded-full border border-[var(--primary)]/15 bg-[var(--primary)]/5 px-4 py-2.5">
-              <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[var(--primary)]">
-                Quality & Compliance
-              </span>
-            </div>
+          <div className="inline-flex items-center rounded-full border border-[var(--primary)]/15 bg-[var(--primary)]/5 px-4 py-2.5">
+            <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[var(--primary)]">
+              Quality & Compliance
+            </span>
+          </div>
 
-            <h2 className="mt-6 text-4xl font-bold leading-[0.95] tracking-[-0.04em] text-slate-900 md:text-6xl xl:text-[64px]">
-              Quality Built
-              <br />
+          <h2 className="mt-4 text-4xl font-bold leading-[0.95] tracking-[-0.04em] text-slate-900 md:text-6xl xl:text-[58px]">
+            Quality Built              
+            <br />
+            <span className="text-[var(--primary)]">
+              {" "}
               Into Every Batch.
-            </h2>
+            </span>
+          </h2>
 
             <p className="mt-6 max-w-xl text-base leading-relaxed text-slate-600 md:text-lg">
               At REDSON Pharmaceuticals, quality is integrated into every

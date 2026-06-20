@@ -1,37 +1,81 @@
-import { PackageCheck, ArrowRight } from "lucide-react";
+import Link from "next/link";
+import {
+  PackageCheck,
+  ArrowRight,
+  CheckCircle2,
+} from "lucide-react";
+
+const features = [
+  "Dedicated manufacturing support for growing brands",
+  "Private label and white-label production solutions",
+  "Customized packaging and branding flexibility",
+  "Flexible batch sizes for scalable market entry",
+];
 
 export default function ThirdPartyManufacturing() {
   return (
-    <section className="bg-slate-50 py-14 lg:py-16">
-      <div className="mx-auto max-w-[1400px] px-6 lg:px-10">
-        <div className="grid gap-10 lg:grid-cols-2">
-          <div>
-            <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-[var(--primary)]/10">
-              <PackageCheck size={24} className="text-[var(--primary)]" />
+    <section className="relative overflow-hidden bg-slate-50 py-14 lg:py-16">
+      {/* Background Glow */}
+      <div className="absolute right-0 top-0 h-[280px] w-[280px] rounded-full bg-[var(--primary)]/5 blur-[100px]" />
+
+      <div className="relative mx-auto max-w-[1400px] px-6 lg:px-10">
+        <div className="grid items-end gap-10 lg:grid-cols-2">
+          {/* Left */}
+          <div className="rounded-[28px] border border-slate-200 bg-white p-8 shadow-sm">
+            <div className="grid gap-4 sm:grid-cols-2">
+              {features.map((feature) => (
+                <div
+                  key={feature}
+                  className="rounded-2xl border border-slate-200 bg-slate-50 p-4 transition-all duration-300 hover:border-[var(--primary)]/20 hover:bg-white"
+                >
+                  <div className="flex items-start gap-3">
+                    <div className="mt-0.5 flex h-8 w-8 items-center justify-center rounded-full bg-[var(--primary)]/10">
+                      <CheckCircle2
+                        size={16}
+                        className="text-[var(--primary)]"
+                      />
+                    </div>
+
+                    <p className="text-sm font-medium leading-6 text-slate-700">
+                      {feature}
+                    </p>
+                  </div>
+                </div>
+              ))}
             </div>
 
-            <h2 className="mt-5 text-4xl font-bold text-slate-900 md:text-5xl">
-              Third Party Manufacturing
+            <Link
+              href="/contact"
+              className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-[var(--primary)] transition-all hover:gap-3"
+            >
+              Learn More
+              <ArrowRight size={16} />
+            </Link>
+          </div>
+
+          {/* Right */}
+          <div className="flex-col items-start h-full">
+            <div className="inline-flex items-center rounded-full border border-[var(--primary)]/15 bg-[var(--primary)]/5 px-4 py-2.5">
+              <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[var(--primary)]">
+                Third Party Manufacturing
+              </span>
+            </div>
+
+            <h2 className="mt-4 text-4xl font-bold leading-[0.95] tracking-[-0.04em] text-slate-900 md:text-6xl xl:text-[58px]">
+                Expand Faster,                
+              <br />
+              <span className="text-[var(--primary)]">
+                {" "}
+                Manufacture
+                Smarter.
+              </span>
             </h2>
 
             <p className="mt-5 max-w-xl leading-relaxed text-slate-600">
-              Reliable third-party manufacturing solutions designed to
-              support product expansion, operational efficiency, and
-              faster market entry.
+              Reliable third-party manufacturing solutions designed
+              to help pharmaceutical businesses expand product lines,
+              improve efficiency, and accelerate market entry.
             </p>
-          </div>
-
-          <div className="rounded-[28px] border border-slate-200 bg-white p-8">
-            <ul className="space-y-4 text-slate-700">
-              <li>• Dedicated production support</li>
-              <li>• Private label manufacturing</li>
-              <li>• Customized packaging</li>
-              <li>• Flexible batch sizes</li>
-            </ul>
-
-            <button className="mt-8 flex items-center gap-2 text-sm font-semibold text-[var(--primary)]">
-              Learn More <ArrowRight size={16} />
-            </button>
           </div>
         </div>
       </div>
