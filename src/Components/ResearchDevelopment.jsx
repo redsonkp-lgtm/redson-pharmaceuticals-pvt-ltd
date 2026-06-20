@@ -34,7 +34,7 @@ const researchItems = [
 
 export default function ResearchDevelopment() {
   return (
-    <section className="relative overflow-hidden bg-white py-20">
+    <section id="#researchdevelopment" className="relative overflow-hidden bg-white py-12">
       {/* Background */}
       <div className="absolute left-0 top-0 h-[320px] w-[320px] rounded-full bg-[var(--primary)]/5 blur-[120px]" />
 

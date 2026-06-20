@@ -31,8 +31,7 @@ const contactInfo = [
 export default function Contact() {
   return (
     <section
-      id="contact"
-      className="relative overflow-hidden bg-white py-16 lg:py-20"
+      id="#contact" className="relative overflow-hidden bg-white py-12"
     >
       {/* Background */}
       <div className="absolute left-0 top-0 h-[320px] w-[320px] rounded-full bg-[var(--primary)]/5 blur-[120px]" />
@@ -43,19 +42,21 @@ export default function Contact() {
           {/* Left Side */}
           <div className="flex flex-col justify-between">
             <div>
-              <div className="inline-flex rounded-full border border-[var(--primary)]/15 bg-[var(--primary)]/5 px-4 py-2">
+              <div className="inline-flex items-center rounded-full border border-[var(--primary)]/15 bg-[var(--primary)]/5 px-4 py-2.5">
                 <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[var(--primary)]">
                   Contact Us
                 </span>
               </div>
 
-              <h2 className="mt-5 text-4xl font-bold leading-[0.95] text-slate-900 md:text-5xl xl:text-[56px]">
+              <h2 className="mt-4 text-4xl font-bold leading-[0.96] tracking-[-0.04em] text-slate-900 md:text-6xl xl:text-[64px]">
                 Let’s Build Your
                 <br />
+                <span className="text-[var(--primary)]">
                 Next Product.
+                </span>
               </h2>
 
-              <p className="mt-5 max-w-md text-slate-600 leading-relaxed">
+              <p className="mt-5 max-w-lg text-slate-600 leading-relaxed">
                 Connect with REDSON Pharmaceuticals for contract
                 manufacturing, third-party production, private labeling,
                 packaging, and export solutions.

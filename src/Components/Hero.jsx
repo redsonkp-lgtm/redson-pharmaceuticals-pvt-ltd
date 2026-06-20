@@ -25,7 +25,7 @@ export default function Hero() {
   ];
 
   return (
-    <section className="relative overflow-hidden pt-12 bg-white">
+    <section id="#hero" className="relative overflow-hidden pt-12 bg-white">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-slate-50 to-white" />
 
@@ -120,9 +120,9 @@ export default function Hero() {
             </div>
 
             {/* Floating Card */}
-            <div className="absolute bottom-4 left-4 right-4 rounded-[24px] border border-white/30 bg-white/90 p-5 shadow-xl backdrop-blur-xl md:bottom-6 md:left-6 md:right-6">
+            <div className="absolute bottom-4 left-4 right-4 rounded-[24px] border border-white/30 bg-white/90 p-5 shadow-xl backdrop-blur-xl md:bottom-8 md:left-8 md:right-8">
               <div className="grid grid-cols-3 gap-4">
-                <div>
+                <div className="flex-col text-center border-r">
                   <h3 className="text-2xl font-bold text-slate-900">
                     100%
                   </h3>
@@ -132,7 +132,7 @@ export default function Hero() {
                   </p>
                 </div>
 
-                <div>
+                <div className="flex-col text-center">
                   <h3 className="text-2xl font-bold text-slate-900">
                     GMP
                   </h3>
@@ -142,7 +142,7 @@ export default function Hero() {
                   </p>
                 </div>
 
-                <div>
+                <div className="flex-col text-center border-l">
                   <h3 className="text-2xl font-bold text-slate-900">
                     Global
                   </h3>

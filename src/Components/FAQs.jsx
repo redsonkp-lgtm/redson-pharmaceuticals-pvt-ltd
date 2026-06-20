@@ -40,7 +40,7 @@ export default function FAQs() {
   const [active, setActive] = useState(0);
 
   return (
-    <section className="relative overflow-hidden bg-white py-16 lg:py-20">
+    <section id="#faqs" className="relative overflow-hidden bg-white py-12 pb-20">
       {/* Background */}
       <div className="absolute left-0 top-0 h-[320px] w-[320px] rounded-full bg-[var(--primary)]/5 blur-[120px]" />
       <div className="absolute right-0 bottom-0 h-[280px] w-[280px] rounded-full bg-blue-100/40 blur-[100px]" />
@@ -51,16 +51,18 @@ export default function FAQs() {
           {/* Left */}
 <div className="flex flex-col justify-between">
   <div>
-    <div className="inline-flex rounded-full border border-[var(--primary)]/15 bg-[var(--primary)]/5 px-4 py-2">
+    <div className="inline-flex items-center rounded-full border border-[var(--primary)]/15 bg-[var(--primary)]/5 px-4 py-2.5">
       <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[var(--primary)]">
         FAQs
       </span>
     </div>
 
-    <h2 className="mt-5 text-4xl font-bold leading-[0.95] text-slate-900 md:text-5xl xl:text-[56px]">
+    <h2 className="mt-4 text-4xl font-bold leading-[0.96] tracking-[-0.04em] text-slate-900 md:text-6xl xl:text-[64px]">
       Frequently Asked
       <br />
+      <span className="text-[var(--primary)]">
       Questions.
+      </span>
     </h2>
 
     <p className="mt-5 max-w-md text-slate-600 leading-relaxed">

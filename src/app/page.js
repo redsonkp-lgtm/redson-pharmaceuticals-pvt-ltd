@@ -32,12 +32,12 @@ export default function Home() {
     <Certifications/>
     <ExportServices/>
     <Gallery/>
+    <Contact/>
     <FAQs/>
     {/* <WhyChooseUs/> */}
     {/* <ManufacturingProcess/> */}
     {/* <GlobalReach/> */}
     {/* <CTA/> */}
-    <Contact/>
     </>
   );
 }

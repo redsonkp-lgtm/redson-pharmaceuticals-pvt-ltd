@@ -26,7 +26,7 @@ const services = [
 
 export default function Services() {
   return (
-    <section className="relative overflow-hidden bg-white py-16 lg:py-20">
+    <section id="#services" className="relative overflow-hidden bg-white py-6">
       {/* Background Glow */}
       <div className="absolute left-0 top-0 h-[400px] w-[400px] rounded-full bg-[var(--primary)]/5 blur-[130px]" />
       <div className="absolute right-0 bottom-0 h-[350px] w-[350px] rounded-full bg-blue-100/40 blur-[130px]" />
@@ -102,7 +102,7 @@ export default function Services() {
         </div>
 
         {/* Bottom Inline CTA */}
-        <div className="mt-14 flex flex-col gap-5 border-t border-slate-200 pt-8 md:flex-row md:items-center md:justify-between">
+        <div className="mt-6 flex flex-col gap-5 border-t border-slate-200 pt-8 md:flex-row md:items-center md:justify-between">
           <div>
             <p className="text-[11px] font-bold uppercase tracking-[0.25em] text-[var(--primary)]">
               Partnership Driven Manufacturing

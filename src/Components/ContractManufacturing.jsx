@@ -14,7 +14,7 @@ const features = [
 
 export default function ContractManufacturing() {
   return (
-    <section className="relative overflow-hidden bg-white py-14 lg:py-16">
+    <section id="#contractmanufacturing" className="relative overflow-hidden bg-white py-16">
       {/* Background */}
       <div className="absolute left-0 top-0 h-[280px] w-[280px] rounded-full bg-[var(--primary)]/5 blur-[100px]" />
 

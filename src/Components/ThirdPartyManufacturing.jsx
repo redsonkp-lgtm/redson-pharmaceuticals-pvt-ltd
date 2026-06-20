@@ -14,14 +14,14 @@ const features = [
 
 export default function ThirdPartyManufacturing() {
   return (
-    <section className="relative overflow-hidden bg-slate-50 py-14 lg:py-16">
+    <section id="thirdpartymanufacturing" className="relative overflow-hidden bg-slate-50 py-16">
       {/* Background Glow */}
       <div className="absolute right-0 top-0 h-[280px] w-[280px] rounded-full bg-[var(--primary)]/5 blur-[100px]" />
 
       <div className="relative mx-auto max-w-[1400px] px-6 lg:px-10">
         <div className="grid items-end gap-10 lg:grid-cols-2">
           {/* Left */}
-          <div className="rounded-[28px] border border-slate-200 bg-white p-8 shadow-sm">
+          <div className="order-2 lg:order-1 rounded-[28px] border border-slate-200 bg-white p-8 shadow-sm">
             <div className="grid gap-4 sm:grid-cols-2">
               {features.map((feature) => (
                 <div
@@ -54,7 +54,7 @@ export default function ThirdPartyManufacturing() {
           </div>
 
           {/* Right */}
-          <div className="flex-col items-start h-full">
+          <div className="order-1 lg:order-2 flex flex-col items-start h-full">
             <div className="inline-flex items-center rounded-full border border-[var(--primary)]/15 bg-[var(--primary)]/5 px-4 py-2.5">
               <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[var(--primary)]">
                 Third Party Manufacturing

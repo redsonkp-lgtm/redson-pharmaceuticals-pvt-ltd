@@ -11,7 +11,7 @@ const gallery = [
 
 export default function Gallery() {
   return (
-    <section className="relative overflow-hidden bg-white py-16 lg:py-20">
+    <section id="#gallery" className="relative overflow-hidden bg-white py-12">
       {/* Background */}
       <div className="absolute left-0 top-0 h-[320px] w-[320px] rounded-full bg-[var(--primary)]/5 blur-[120px]" />
       <div className="absolute right-0 bottom-0 h-[280px] w-[280px] rounded-full bg-blue-100/40 blur-[100px]" />

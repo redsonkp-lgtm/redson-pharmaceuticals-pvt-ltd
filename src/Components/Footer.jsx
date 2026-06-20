@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import {
   Phone,
   Mail,
@@ -7,25 +8,26 @@ import {
 } from "lucide-react";
 
 const quickLinks = [
-  "About",
-  "Services",
-  "Manufacturing",
-  "Quality",
-  "Contact",
+  { label: "About", href: "#about" },
+  { label: "Services", href: "#services" },
+  { label: "Manufacturing", href: "#manufacturingcapabilities" },
+  { label: "Quality", href: "#quality" },
+  { label: "Export", href: "#export" },
+  { label: "Contact", href: "#contact" },
 ];
 
 const services = [
-  "Contract Manufacturing",
-  "Third Party Manufacturing",
-  "Private Labeling",
-  "Export Services",
+  { label: "Contract Manufacturing", href: "#contractmanufacturing" },
+  { label: "Third Party Manufacturing", href: "#thirdpartymanufacturing" },
+  { label: "Private Labeling", href: "#manufacturingcapabilities" },
+  { label: "Export Services", href: "#exportservices" },
 ];
 
 export default function Footer() {
   return (
     <footer className="relative overflow-hidden bg-slate-950 text-white">
       {/* CTA Strip */}
-      <div className="border-b border-white/10">
+      <div className="border-b border-white/30">
         <div className="mx-auto flex max-w-[1400px] flex-col gap-6 px-6 py-8 lg:flex-row lg:items-center lg:justify-between lg:px-10">
           <div>
             <p className="text-[11px] font-bold uppercase tracking-[0.25em] text-[var(--primary)]">
@@ -38,7 +40,7 @@ export default function Footer() {
           </div>
 
           <Link
-            href="/contact"
+            href="/#contact"
             className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-900 transition hover:scale-[1.02]"
           >
             Request Consultation
@@ -50,12 +52,20 @@ export default function Footer() {
       {/* Main Footer */}
       <div className="mx-auto max-w-[1400px] px-6 py-14 lg:px-10">
         <div className="grid gap-10 md:grid-cols-2 xl:grid-cols-4">
-          {/* Company */}
-          <div>
-            <h3 className="text-2xl font-bold">
-              REDSON Pharmaceuticals
-            </h3>
-
+          <div className="flex-col items-start justify-start">
+            <div className="flex items-start">
+              {/* Logo */}
+              <Link href="#hero" className="shrink-0">
+                <Image
+                  src="/logo-purple-temp-01.png"
+                  alt="Ziora Pharmaceutical"
+                  width={1000}
+                  height={1000}
+                  priority
+                  className="w-auto h-[120px]"
+                />
+              </Link>
+            </div>
             <p className="mt-4 text-sm leading-7 text-white/70">
               Trusted pharmaceutical manufacturing partner specializing
               in contract manufacturing, private labeling, packaging,
@@ -72,11 +82,11 @@ export default function Footer() {
             <div className="mt-5 space-y-3">
               {quickLinks.map((item) => (
                 <Link
-                  key={item}
-                  href="/"
+                  key={item.label}
+                  href={item.href}
                   className="block text-sm text-white/70 transition hover:text-white"
                 >
-                  {item}
+                  {item.label}
                 </Link>
               ))}
             </div>
@@ -90,12 +100,13 @@ export default function Footer() {
 
             <div className="mt-5 space-y-3">
               {services.map((item) => (
-                <p
-                  key={item}
+                <Link
+                  key={item.label}
+                  href={item.href}
                   className="text-sm text-white/70"
                 >
-                  {item}
-                </p>
+                  {item.label}
+                </Link>
               ))}
             </div>
           </div>
@@ -143,20 +154,11 @@ export default function Footer() {
 
       {/* Bottom */}
       <div className="border-t border-white/10">
-        <div className="mx-auto flex max-w-[1400px] flex-col gap-4 px-6 py-6 text-sm text-white/60 md:flex-row md:items-center md:justify-between lg:px-10">
+        <div className="mx-auto flex items-center max-w-[1400px] gap-4 px-6 py-6 text-sm text-white/60 md:flex-row md:items-center md:justify-between lg:px-10">
           <p>
-            © {new Date().getFullYear()} REDSON Pharmaceuticals Pvt. Ltd.
+            © 2026 REDSON Pharmaceuticals Pvt. Ltd.
             All rights reserved.
           </p>
-
-          <div className="flex gap-6">
-            <Link href="/" className="transition hover:text-white">
-              Privacy Policy
-            </Link>
-            <Link href="/" className="transition hover:text-white">
-              Terms & Conditions
-            </Link>
-          </div>
         </div>
       </div>
     </footer>

@@ -28,7 +28,7 @@ const qualityItems = [
 
 export default function QualityCompliance() {
   return (
-    <section className="relative overflow-hidden bg-white py-16 lg:py-20">
+    <section id="#qualitycompliance" className="relative overflow-hidden bg-white py-12">
       {/* Background Effects */}
       <div className="absolute left-0 top-0 h-[360px] w-[360px] rounded-full bg-[var(--primary)]/5 blur-[110px]" />
       <div className="absolute right-0 bottom-0 h-[260px] w-[260px] rounded-full bg-blue-100/40 blur-[90px]" />

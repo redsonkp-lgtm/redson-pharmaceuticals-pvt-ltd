@@ -28,28 +28,9 @@ const pillars = [
   },
 ];
 
-const stats = [
-  {
-    value: "8+",
-    label: "Product Categories",
-  },
-  {
-    value: "100%",
-    label: "Quality Focus",
-  },
-  {
-    value: "Global",
-    label: "Export Ready",
-  },
-  {
-    value: "R&D",
-    label: "Innovation Support",
-  },
-];
-
 export default function About() {
   return (
-    <section className="relative overflow-hidden bg-[#f8fafc] py-16 lg:py-20">
+    <section id="#about" className="relative overflow-hidden bg-white py-6">
       {/* Background */}
       <div className="absolute left-0 top-0 h-[420px] w-[420px] rounded-full bg-[var(--primary)]/5 blur-[110px]" />
       <div className="absolute right-0 bottom-0 h-[280px] w-[280px] rounded-full bg-blue-100/40 blur-[100px]" />
@@ -167,26 +148,6 @@ export default function About() {
                 />
               </Link>
             </div>
-          </div>
-        </div>
-
-        {/* Statistics */}
-        <div className="mt-20 overflow-hidden rounded-[32px] bg-slate-900">
-          <div className="grid md:grid-cols-2 xl:grid-cols-4">
-            {stats.map((item, index) => (
-              <div
-                key={index}
-                className="border-b border-white/10 p-8 text-center md:border-b-0 md:border-r md:last:border-r-0"
-              >
-                <h3 className="text-4xl font-bold tracking-tight text-white">
-                  {item.value}
-                </h3>
-
-                <p className="mt-2 text-[11px] uppercase tracking-[0.25em] text-white/60">
-                  {item.label}
-                </p>
-              </div>
-            ))}
           </div>
         </div>
       </div>

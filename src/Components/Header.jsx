@@ -19,12 +19,12 @@ export default function Header() {
   }, []);
 
   const navItems = [
-    "ABOUT",
-    "PRODUCTS",
-    "SERVICES",
-    "QUALITY ASSURANCE",
-    "CONTACT",
-    "EXPORT",
+    { label: "About", href: "#about" },
+    { label: "Services", href: "#services" },
+    { label: "Manufacturing", href: "#manufacturingcapabilities" },
+    { label: "Quality", href: "#quality" },
+    { label: "Export", href: "#export" },
+    { label: "Contact", href: "#contact" },
   ];
 
   return (
@@ -67,11 +67,11 @@ export default function Header() {
           <nav className="hidden lg:flex items-center gap-5 xl:gap-8">
             {navItems.map((item) => (
               <Link
-                key={item}
-                href="#"
+                key={item.label}
+                href={item.href}
                 className="text-sm font-medium tracking-wide text-black transition-colors duration-300 hover:text-black/60"
               >
-                {item}
+                {item.label}
               </Link>
             ))}
           </nav>
@@ -103,8 +103,8 @@ export default function Header() {
             <nav className="flex flex-col">
               {navItems.map((item, index) => (
                 <Link
-                  key={item}
-                  href="#"
+                  key={item.label}
+                  href={item.href}
                   onClick={() => setMenuOpen(false)}
                   className={`group flex items-center justify-between py-4 text-[15px] font-medium text-gray-800 transition-all duration-300 hover:text-[#7C5993] ${
                     index !== navItems.length - 1
@@ -112,7 +112,7 @@ export default function Header() {
                       : ""
                   }`}
                 >
-                  <span>{item}</span>
+                  <span>{item.label}</span>
 
                   <svg
                     className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1"
