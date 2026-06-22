@@ -31,10 +31,6 @@ const pillars = [
 export default function About() {
   return (
     <section id="#about" className="relative overflow-hidden bg-white py-6">
-      {/* Background */}
-      <div className="absolute left-0 top-0 h-[420px] w-[420px] rounded-full bg-[var(--primary)]/5 blur-[110px]" />
-      <div className="absolute right-0 bottom-0 h-[280px] w-[280px] rounded-full bg-blue-100/40 blur-[100px]" />
-
       <div className="relative mx-auto max-w-[1400px] px-6 lg:px-10">
         {/* Heading */}
         <div className="flex items-center justify-start">
@@ -80,7 +76,7 @@ export default function About() {
                 alt="REDSON Manufacturing Facility"
                 width={900}
                 height={1000}
-                className="h-[420px] w-full object-cover md:h-[520px]"
+                className="h-[420px] w-full object-cover md:h-[520px] xl:h-[580px]"
               />
 
               {/* Bottom Overlay Strip */}
@@ -135,12 +131,12 @@ export default function About() {
             </div>
 
             {/* CTA */}
-            <div className="mt-10">
+            <div className="mt-6 md:mt-10">
               <Link
                 href="/services"
-                className="group flex w-fit items-center gap-2 rounded-full bg-slate-900 px-6 py-3.5 text-sm font-semibold text-white transition-all duration-500 hover:-translate-y-0.5 hover:bg-slate-800"
+                className="group w-fit flex items-center gap-2 rounded-full bg-black border-[2px] border-[black] px-6 py-3.5 text-sm font-semibold text-white hover:text-black transition-all duration-500 hover:-translate-y-0.5 hover:bg-transparent"
               >
-                Explore Manufacturing Capabilities
+                Explore Services
 
                 <ArrowRight
                   size={16}

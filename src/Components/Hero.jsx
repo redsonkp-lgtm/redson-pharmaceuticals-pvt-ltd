@@ -38,7 +38,7 @@ export default function Hero() {
           <div>
             {/* Badge */}
             <div className="inline-flex items-center rounded-full border border-[var(--primary)]/15 bg-[var(--primary)]/5 px-4 py-2.5">
-              <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[var(--primary)]">
+              <span className="text-[11px] font-semibold uppercase tracking-[0.15em] md:tracking-[0.2em] text-[var(--primary)]">
                 Advancing Healthcare Through Quality & Innovation
               </span>
             </div>
@@ -66,7 +66,7 @@ export default function Hero() {
 
             {/* CTA */}
             <div className="mt-6 flex flex-wrap gap-4">
-              <button className="group flex items-center gap-2 rounded-full bg-black border-[2px] border-[black] px-6 py-3.5 text-sm font-semibold text-white hover:text-black transition-all duration-500 hover:-translate-y-0.5 hover:bg-transparent">
+              <button className="group flex items-center gap-1 md:gap-2 rounded-full bg-black border-[2px] border-[black] px-6 py-3.5 text-sm font-semibold text-white hover:text-black transition-all duration-500 hover:-translate-y-0.5 hover:bg-transparent">
                 Request Manufacturing Quote
 
                 <ArrowRight
@@ -115,42 +115,44 @@ export default function Hero() {
                 alt="REDSON Pharmaceuticals Manufacturing Facility"
                 width={900}
                 height={1000}
-                className="h-[420px] w-full object-cover md:h-[520px] lg:h-[560px]"
+                className="h-[360px] w-full object-cover md:h-[520px] lg:h-[520px] xl:h-[560px]"
               />
             </div>
 
             {/* Floating Card */}
-            <div className="absolute bottom-4 left-4 right-4 rounded-[24px] border border-white/30 bg-white/90 p-5 shadow-xl backdrop-blur-xl md:bottom-8 md:left-8 md:right-8">
-              <div className="grid grid-cols-3 gap-4">
-                <div className="flex-col text-center border-r">
-                  <h3 className="text-2xl font-bold text-slate-900">
+            <div className="absolute bottom-2 left-2 right-2 rounded-[28px] border border-white/30 bg-white/90 p-3 shadow-xl backdrop-blur-xl sm:bottom-4 sm:left-4 sm:right-4 md:bottom-8 md:left-8 md:right-8 md:rounded-[24px] md:p-5">
+              <div className="grid grid-cols-3 gap-2 sm:gap-4">
+                
+                {/* Item 1 */}
+                <div className="flex flex-col items-center text-center border-r border-slate-200 px-1 sm:px-3">
+                  <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-slate-900">
                     100%
                   </h3>
-
-                  <p className="mt-1 text-xs text-slate-500">
+                  <p className="mt-1 text-[10px] sm:text-xs md:text-sm text-slate-500 leading-tight">
                     Quality Focus
                   </p>
                 </div>
 
-                <div className="flex-col text-center">
-                  <h3 className="text-2xl font-bold text-slate-900">
+                {/* Item 2 */}
+                <div className="flex flex-col items-center text-center px-1 sm:px-3">
+                  <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-slate-900">
                     GMP
                   </h3>
-
-                  <p className="mt-1 text-xs text-slate-500">
+                  <p className="mt-1 text-[10px] sm:text-xs md:text-sm text-slate-500 leading-tight">
                     Compliant
                   </p>
                 </div>
 
-                <div className="flex-col text-center border-l">
-                  <h3 className="text-2xl font-bold text-slate-900">
+                {/* Item 3 */}
+                <div className="flex flex-col items-center text-center border-l border-slate-200 px-1 sm:px-3">
+                  <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-slate-900">
                     Global
                   </h3>
-
-                  <p className="mt-1 text-xs text-slate-500">
+                  <p className="mt-1 text-[10px] sm:text-xs md:text-sm text-slate-500 leading-tight">
                     Export Support
                   </p>
                 </div>
+
               </div>
             </div>
           </div>

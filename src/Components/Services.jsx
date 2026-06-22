@@ -34,17 +34,20 @@ export default function Services() {
       <div className="relative mx-auto max-w-[1400px] px-6 lg:px-10">
         {/* Header */}
         <div className="max-w-5xl">
-          <div className="inline-flex items-center rounded-full border border-[var(--primary)]/15 bg-[var(--primary)]/5 px-4 py-2.5">
-            <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[var(--primary)]">
-              Our Services
-            </span>
-          </div>
+        <div className="inline-flex items-center rounded-full border border-[var(--primary)]/15 bg-[var(--primary)]/5 px-4 py-2.5">
+              <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[var(--primary)]">
+                Our Services
+              </span>
+            </div>
 
-          <h2 className="mt-6 text-4xl font-bold leading-[0.95] tracking-[-0.04em] text-slate-900 md:text-6xl xl:text-[64px]">
-            Manufacturing Solutions
-            <br />
-            Built Around Your Brand.
-          </h2>
+            <h2 className="mt-4 text-4xl font-bold leading-[0.96] tracking-[-0.04em] text-slate-900 md:text-6xl xl:text-[64px]">
+              Manufacturing Solutions
+              <br />
+              <span className="text-[var(--primary)]">
+              Built Around Your Brand.
+              </span>
+            </h2>
+
 
           <p className="mt-6 max-w-3xl text-base leading-relaxed text-slate-600 md:text-lg">
             Flexible pharmaceutical services designed to support

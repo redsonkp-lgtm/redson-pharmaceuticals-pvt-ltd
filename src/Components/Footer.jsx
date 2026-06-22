@@ -58,7 +58,7 @@ export default function Footer() {
               <Link href="#hero" className="shrink-0">
                 <Image
                   src="/logo-purple-temp-01.png"
-                  alt="Ziora Pharmaceutical"
+                  alt="Redson Pharmaceutical"
                   width={1000}
                   height={1000}
                   priority
@@ -103,7 +103,7 @@ export default function Footer() {
                 <Link
                   key={item.label}
                   href={item.href}
-                  className="text-sm text-white/70"
+                  className="block text-sm text-white/70 transition hover:text-white"
                 >
                   {item.label}
                 </Link>
