@@ -30,18 +30,21 @@ const pillars = [
 
 export default function About() {
   return (
-    <section id="#about" className="relative overflow-hidden bg-white py-6">
-      <div className="relative mx-auto max-w-[1400px] px-6 lg:px-10">
+    <section
+      id="about"
+      className="relative overflow-hidden bg-white py-10 sm:py-12 lg:py-16"
+    >
+      <div className="relative mx-auto max-w-[1400px] px-4 sm:px-6 lg:px-10">
         {/* Heading */}
         <div className="flex items-center justify-start">
-          <div className="max-w-5xl ">
-            <div className="inline-flex items-center rounded-full border border-[var(--primary)]/15 bg-[var(--primary)]/5 px-4 py-2.5">
-              <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[var(--primary)]">
+          <div className="max-w-5xl">
+            <div className="inline-flex max-w-full items-center rounded-full border border-[var(--primary)]/15 bg-[var(--primary)]/5 px-3 sm:px-4 py-2 sm:py-2.5">
+              <span className="text-[10px] sm:text-[11px] font-semibold uppercase tracking-[0.14em] sm:tracking-[0.2em] text-[var(--primary)] leading-snug">
                 About Redson Pharmaceuticals
               </span>
             </div>
 
-            <h2 className="mt-4 text-4xl font-bold leading-[0.96] tracking-[-0.04em] text-slate-900 md:text-6xl xl:text-[64px]">
+            <h2 className="mt-4 text-[34px] sm:text-4xl font-bold leading-[0.96] tracking-[-0.04em] text-slate-900 md:text-6xl xl:text-[64px]">
               Built for
               <br />
               <span className="text-[var(--primary)]">
@@ -49,7 +52,7 @@ export default function About() {
               </span>
             </h2>
 
-            <p className="mt-6 max-w-5xl text-base leading-relaxed text-slate-600 md:text-lg">
+            <p className="mt-5 sm:mt-6 max-w-5xl text-sm sm:text-base leading-relaxed text-slate-600 md:text-lg">
               REDSON Pharmaceuticals Private Limited is a pharmaceutical
               manufacturer, exporter, and supplier delivering high-quality
               healthcare solutions through advanced manufacturing
@@ -57,7 +60,7 @@ export default function About() {
               services.
             </p>
 
-            <p className="mt-4 max-w-5xl text-base leading-relaxed text-slate-500">
+            <p className="mt-4 max-w-5xl text-sm sm:text-base leading-relaxed text-slate-500">
               From formulation development and contract manufacturing to
               private labeling, customized packaging, and export support,
               we help pharmaceutical companies build, launch, and scale
@@ -67,29 +70,29 @@ export default function About() {
         </div>
 
         {/* Main Content */}
-        <div className="mt-20 grid items-center gap-14 lg:grid-cols-[0.95fr_1.05fr]">
+        <div className="mt-12 sm:mt-16 lg:mt-20 grid items-center gap-10 sm:gap-12 lg:gap-14 lg:grid-cols-[0.95fr_1.05fr]">
           {/* Left Image */}
           <div className="relative">
-            <div className="relative overflow-hidden rounded-[32px] border border-slate-200 bg-slate-100 shadow-[0_25px_60px_rgba(15,23,42,0.12)]">
+            <div className="relative overflow-hidden rounded-[24px] sm:rounded-[32px] border border-slate-200 bg-slate-100 shadow-[0_25px_60px_rgba(15,23,42,0.12)]">
               <Image
                 src="/temp-img-01.png"
                 alt="REDSON Manufacturing Facility"
                 width={900}
                 height={1000}
-                className="h-[420px] w-full object-cover md:h-[520px] xl:h-[580px]"
+                className="h-[280px] sm:h-[380px] md:h-[520px] xl:h-[580px] w-full object-cover"
               />
 
               {/* Bottom Overlay Strip */}
-              <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-6 md:p-8">
-                <p className="text-[11px] font-bold uppercase tracking-[0.25em] text-white/70">
+              <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-4 sm:p-6 md:p-8">
+                <p className="text-[10px] sm:text-[11px] font-bold uppercase tracking-[0.18em] sm:tracking-[0.25em] text-white/70">
                   Integrated Pharmaceutical Manufacturing
                 </p>
 
-                <h3 className="mt-2 text-xl font-bold text-white md:text-2xl">
+                <h3 className="mt-2 text-lg sm:text-xl md:text-2xl font-bold text-white">
                   Advancing Healthcare Through Quality & Innovation
                 </h3>
 
-                <p className="mt-2 max-w-lg text-sm leading-relaxed text-white/80">
+                <p className="mt-2 max-w-lg text-xs sm:text-sm leading-relaxed text-white/80">
                   Comprehensive capabilities across formulation,
                   manufacturing, packaging, quality assurance, and
                   export solutions.
@@ -100,28 +103,28 @@ export default function About() {
 
           {/* Right Content */}
           <div className="flex flex-col justify-center">
-            <div className="space-y-8">
+            <div className="space-y-6 sm:space-y-8">
               {pillars.map((item, index) => {
                 const Icon = item.icon;
 
                 return (
                   <div
                     key={index}
-                    className="group flex gap-5 border-b border-slate-200 pb-8 last:border-0"
+                    className="group flex gap-4 sm:gap-5 border-b border-[var(--primary)]/40 pb-6 sm:pb-8 last:border-0"
                   >
-                    <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-[var(--primary)]/10 transition-all duration-300 group-hover:bg-[var(--primary)]">
+                    <div className="flex h-12 w-12 sm:h-14 sm:w-14 shrink-0 items-center justify-center rounded-2xl bg-[var(--primary)]/10 transition-all duration-300 group-hover:bg-[var(--primary)]">
                       <Icon
-                        size={24}
+                        size={22}
                         className="text-[var(--primary)] transition-colors duration-300 group-hover:text-white"
                       />
                     </div>
 
                     <div>
-                      <h3 className="text-xl font-bold text-slate-900">
+                      <h3 className="text-lg sm:text-xl font-bold text-slate-900 leading-snug">
                         {item.title}
                       </h3>
 
-                      <p className="mt-3 text-sm leading-7 text-slate-600">
+                      <p className="mt-2 sm:mt-3 text-sm leading-6 sm:leading-7 text-slate-600">
                         {item.description}
                       </p>
                     </div>
@@ -131,18 +134,20 @@ export default function About() {
             </div>
 
             {/* CTA */}
-            <div className="mt-6 md:mt-10">
-              <Link
-                href="/services"
-                className="group w-fit flex items-center gap-2 rounded-full bg-black border-[2px] border-[black] px-6 py-3.5 text-sm font-semibold text-white hover:text-black transition-all duration-500 hover:-translate-y-0.5 hover:bg-transparent"
+            <div className="mt-6 sm:mt-8 md:mt-10">
+              <a
+                href="#services"
+                className="group flex w-full sm:w-fit min-h-[48px] items-center justify-center gap-2 rounded-full border-2 border-black bg-black px-5 sm:px-6 py-3 sm:py-3.5 text-sm font-semibold text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-transparent hover:text-black active:scale-[0.98]"
               >
-                Explore Services
+                <span className="whitespace-nowrap">
+                  Explore Services
+                </span>
 
                 <ArrowRight
                   size={16}
-                  className="transition-transform group-hover:translate-x-1"
+                  className="transition-transform duration-300 group-hover:translate-x-1"
                 />
-              </Link>
+              </a>
             </div>
           </div>
         </div>
@@ -350,131 +355,3 @@ export default function About() {
 //     </section>
 //   );
 // }
-
-
-
-
-
-
-
-
-
-// import {
-//     Building2,
-//     Shield,
-//     Microscope,
-//     BadgeCheck,
-//   } from "lucide-react";
-  
-//   const features = [
-//     {
-//       icon: Building2,
-//       badge: "GMP COMPLIANT",
-//       title: "WHO-GMP Certified Facility",
-//       description:
-//         "Our Mohali plant operates under World Health Organization GMP guidelines — every process documented, validated, and continuously audited for full international compliance.",
-//     },
-//     {
-//       icon: Shield,
-//       badge: "STERILE ZONE",
-//       title: "Clean Room Production",
-//       description:
-//         "Dedicated clean rooms with HEPA filtration, differential pressure monitoring, and strict gowning protocols for contamination-free sterile manufacturing.",
-//     },
-//     {
-//       icon: Microscope,
-//       badge: "QC CERTIFIED",
-//       title: "In-House Analytical Lab",
-//       description:
-//         "Full-spectrum QC laboratory running HPLC, dissolution testing, microbiological analysis, and accelerated stability studies on every batch.",
-//     },
-//     {
-//       icon: BadgeCheck,
-//       badge: "AUDIT-READY",
-//       title: "Regulatory Compliance",
-//       description:
-//         "End-to-end batch documentation, SOPs, and traceability records ensure our facility is perpetually ready for regulatory inspections and audits.",
-//     },
-//   ];
-  
-//   export default function About() {
-//     return (
-//       <section className="bg-[#f7f8fa] py-28">
-//         <div className="mx-auto max-w-[1400px] px-4">
-//           {/* Heading */}
-//           <div className="mx-auto max-w-5xl text-center">
-//             <p className="mb-6 text-sm font-semibold uppercase tracking-[0.4em] text-sky-500">
-//               About Ziora
-//             </p>
-  
-//             <h2 className="text-5xl font-bold tracking-tight text-[#14213d] md:text-6xl">
-//               Precision-Driven
-//             </h2>
-  
-//             <h3 className="mt-2 font-serif text-4xl md:text-5xl italic text-[#14213d] lg:text-6xl">
-//               Pharmaceutical Manufacturing
-//             </h3>
-  
-//             <div className="mx-auto mt-8 h-1 w-24 rounded-full bg-sky-500" />
-//           </div>
-  
-//           {/* Description */}
-//           <div className="mx-auto mt-16 max-w-5xl text-center">
-//             <p className="text-2xl leading-relaxed text-slate-700">
-//               At{" "}
-//               <span className="font-bold text-slate-900">
-//                 Ziora Pharmaceuticals
-//               </span>
-//               , precision is not just a standard — it is our ethos.
-//               We fuse advanced formulation expertise with
-//               uncompromising quality control to manufacture
-//               tablets, capsules, injections, syrups, and oral
-//               liquids for the pharmaceutical market.
-//             </p>
-  
-//             <p className="mt-10 text-xl leading-relaxed text-slate-500">
-//               Based in Mohali, Punjab — the pharmaceutical hub of
-//               North India — our WHO-GMP certified facility combines
-//               modern production systems with documented quality
-//               controls to deliver safe, effective, and consistently
-//               high-quality medicines for healthcare brands across
-//               India.
-//             </p>
-//           </div>
-  
-//           {/* Feature Cards */}
-//           <div className="mt-24 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
-//             {features.map((feature, index) => {
-//               const Icon = feature.icon;
-  
-//               return (
-//                 <div
-//                   key={index}
-//                   className="group relative rounded-[28px] border border-slate-200 bg-white p-7 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
-//                 >
-//                   {/* Top Row */}
-//                   <div className="mb-8 flex items-center justify-between">
-//                     <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-[#162846] text-sky-400">
-//                       <Icon size={24} />
-//                     </div>
-  
-//                     <span className="rounded-full border border-sky-200 bg-sky-50 px-4 py-2 text-xs font-bold tracking-[0.15em] text-sky-500">
-//                       {feature.badge}
-//                     </span>
-//                   </div>
-  
-//                   <h4 className="mb-4 text-2xl font-bold text-slate-800">
-//                     {feature.title}
-//                   </h4>
-  
-//                   <p className="leading-8 text-slate-500">
-//                     {feature.description}
-//                   </p>
-//                 </div>
-//               );
-//             })}
-//           </div>
-//         </div>
-//       </section>
-//     );
-//   }

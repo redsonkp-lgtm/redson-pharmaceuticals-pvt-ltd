@@ -26,30 +26,32 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="#services" className="relative overflow-hidden bg-white py-6">
+    <section
+      id="services"
+      className="relative overflow-hidden bg-white py-10 sm:py-12 lg:py-16"
+    >
       {/* Background Glow */}
-      <div className="absolute left-0 top-0 h-[400px] w-[400px] rounded-full bg-[var(--primary)]/5 blur-[130px]" />
-      <div className="absolute right-0 bottom-0 h-[350px] w-[350px] rounded-full bg-blue-100/40 blur-[130px]" />
+      <div className="absolute left-0 top-0 h-[220px] w-[220px] sm:h-[300px] sm:w-[300px] lg:h-[400px] lg:w-[400px] rounded-full bg-[var(--primary)]/5 blur-[130px]" />
+      <div className="absolute right-0 bottom-0 h-[220px] w-[220px] sm:h-[280px] sm:w-[280px] lg:h-[350px] lg:w-[350px] rounded-full bg-blue-100/40 blur-[130px]" />
 
-      <div className="relative mx-auto max-w-[1400px] px-6 lg:px-10">
+      <div className="relative mx-auto max-w-[1400px] px-4 sm:px-6 lg:px-10">
         {/* Header */}
         <div className="max-w-5xl">
-        <div className="inline-flex items-center rounded-full border border-[var(--primary)]/15 bg-[var(--primary)]/5 px-4 py-2.5">
-              <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[var(--primary)]">
-                Our Services
-              </span>
-            </div>
+          <div className="inline-flex max-w-full items-center rounded-full border border-[var(--primary)]/15 bg-[var(--primary)]/5 px-3 sm:px-4 py-2 sm:py-2.5">
+            <span className="text-[10px] sm:text-[11px] font-semibold uppercase tracking-[0.15em] sm:tracking-[0.2em] text-[var(--primary)] leading-snug">
+              Our Services
+            </span>
+          </div>
 
-            <h2 className="mt-4 text-4xl font-bold leading-[0.96] tracking-[-0.04em] text-slate-900 md:text-6xl xl:text-[64px]">
-              Manufacturing Solutions
-              <br />
-              <span className="text-[var(--primary)]">
+          <h2 className="mt-4 text-[34px] sm:text-4xl font-bold leading-[0.96] tracking-[-0.04em] text-slate-900 md:text-6xl xl:text-[64px]">
+            Manufacturing Solutions
+            <br />
+            <span className="text-[var(--primary)]">
               Built Around Your Brand.
-              </span>
-            </h2>
+            </span>
+          </h2>
 
-
-          <p className="mt-6 max-w-3xl text-base leading-relaxed text-slate-600 md:text-lg">
+          <p className="mt-5 sm:mt-6 max-w-3xl text-sm sm:text-base leading-relaxed text-slate-600 md:text-lg">
             Flexible pharmaceutical services designed to support
             product development, manufacturing, packaging, branding,
             and global business expansion.
@@ -57,7 +59,7 @@ export default function Services() {
         </div>
 
         {/* Services List */}
-        <div className="mt-14 overflow-hidden rounded-[28px] border border-slate-200 bg-white shadow-sm">
+        <div className="mt-10 sm:mt-12 lg:mt-14 overflow-hidden rounded-[24px] sm:rounded-[28px] border border-slate-200 bg-white shadow-sm">
           {services.map((service, index) => (
             <div
               key={service.title}
@@ -69,19 +71,19 @@ export default function Services() {
             >
               <div className="absolute left-0 top-0 h-full w-px bg-slate-200 transition-all duration-300 group-hover:bg-[var(--primary)]" />
 
-              <div className="flex flex-col gap-6 py-8 pl-6 pr-4 md:flex-row md:items-center md:justify-between">
+              <div className="flex flex-col gap-5 sm:gap-6 py-6 sm:py-8 pl-4 sm:pl-6 pr-4 md:flex-row md:items-center md:justify-between">
                 {/* Left Content */}
-                <div className="flex gap-6">
-                  <span className="text-sm font-semibold text-[var(--primary)]">
+                <div className="flex gap-4 sm:gap-6">
+                  <span className="text-sm font-semibold text-[var(--primary)] shrink-0">
                     {String(index + 1).padStart(2, "0")}
                   </span>
 
                   <div className="max-w-3xl">
-                    <h3 className="text-2xl font-bold text-slate-900 md:text-3xl">
+                    <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-slate-900 leading-snug">
                       {service.title}
                     </h3>
 
-                    <p className="mt-3 text-sm leading-7 text-slate-600 md:text-base">
+                    <p className="mt-2 sm:mt-3 text-sm leading-6 sm:leading-7 text-slate-600 md:text-base">
                       {service.description}
                     </p>
                   </div>
@@ -90,13 +92,13 @@ export default function Services() {
                 {/* CTA */}
                 <Link
                   href="/contact"
-                  className="inline-flex items-center gap-2 text-sm font-semibold text-[var(--primary)] transition-all group-hover:gap-3"
+                  className="inline-flex w-fit items-center gap-2 text-sm font-semibold text-[var(--primary)] transition-all duration-300 group-hover:gap-3"
                 >
                   Learn More
 
                   <ArrowRight
                     size={16}
-                    className="transition-transform group-hover:translate-x-1"
+                    className="transition-transform duration-300 group-hover:translate-x-1"
                   />
                 </Link>
               </div>
@@ -105,13 +107,13 @@ export default function Services() {
         </div>
 
         {/* Bottom Inline CTA */}
-        <div className="mt-6 flex flex-col gap-5 border-t border-slate-200 pt-8 md:flex-row md:items-center md:justify-between">
+        <div className="mt-6 flex flex-col gap-5 border-t border-slate-200 pt-6 sm:pt-8 md:flex-row md:items-center md:justify-between">
           <div>
-            <p className="text-[11px] font-bold uppercase tracking-[0.25em] text-[var(--primary)]">
+            <p className="text-[10px] sm:text-[11px] font-bold uppercase tracking-[0.18em] sm:tracking-[0.25em] text-[var(--primary)]">
               Partnership Driven Manufacturing
             </p>
 
-            <p className="mt-3 max-w-2xl text-base leading-relaxed text-slate-600">
+            <p className="mt-3 max-w-2xl text-sm sm:text-base leading-relaxed text-slate-600">
               From formulation support and manufacturing to packaging
               and export assistance, REDSON Pharmaceuticals helps
               healthcare brands launch and scale products efficiently.
@@ -120,7 +122,7 @@ export default function Services() {
 
           <Link
             href="/contact"
-            className="rounded-full bg-slate-900 px-6 py-3.5 text-sm font-semibold text-white transition hover:opacity-90"
+            className="flex w-full sm:w-fit min-h-[48px] items-center justify-center rounded-full bg-slate-900 px-5 sm:px-6 py-3 sm:py-3.5 text-sm font-semibold text-white transition-all duration-300 hover:opacity-90 active:scale-[0.98]"
           >
             Request Consultation
           </Link>

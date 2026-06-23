@@ -31,7 +31,7 @@ const contactInfo = [
 export default function Contact() {
   return (
     <section
-      id="#contact" className="relative overflow-hidden bg-white py-12"
+      id="contact" className="relative overflow-hidden bg-white py-12"
     >
       {/* Background */}
       <div className="absolute left-0 top-0 h-[320px] w-[320px] rounded-full bg-[var(--primary)]/5 blur-[120px]" />

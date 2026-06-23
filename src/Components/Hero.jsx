@@ -8,7 +8,6 @@ import {
 } from "lucide-react";
 
 export default function Hero() {
-
   const trustItems = [
     {
       icon: ShieldCheck,
@@ -25,27 +24,24 @@ export default function Hero() {
   ];
 
   return (
-    <section id="#hero" className="relative overflow-hidden pt-12 bg-white">
-      {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-b from-slate-50 to-white" />
-
-      <div className="absolute right-0 top-0 h-[500px] w-[500px] rounded-full bg-[var(--primary)]/10 blur-[120px]" />
-      <div className="absolute left-0 bottom-0 h-[300px] w-[300px] rounded-full bg-blue-100/40 blur-[100px]" />
-
-      <div className="relative mx-auto max-w-[1400px] px-6 py-14 lg:px-10 lg:py-20">
-        <div className="grid items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
+    <section
+      id="hero"
+      className="relative overflow-hidden bg-white pt-10 sm:pt-12"
+    >
+      <div className="relative mx-auto max-w-[1400px] px-4 sm:px-6 py-12 sm:py-14 lg:px-10 lg:py-20">
+        <div className="grid items-center gap-10 sm:gap-12 lg:grid-cols-[1.1fr_0.9fr]">
           {/* LEFT */}
           <div>
             {/* Badge */}
-            <div className="inline-flex items-center rounded-full border border-[var(--primary)]/15 bg-[var(--primary)]/5 px-4 py-2.5">
-              <span className="text-[11px] font-semibold uppercase tracking-[0.15em] md:tracking-[0.2em] text-[var(--primary)]">
+            <div className="inline-flex max-w-full items-center rounded-full border border-[var(--primary)]/15 bg-[var(--primary)]/5 px-3 sm:px-4 py-2 sm:py-2.5">
+              <span className="text-[10px] sm:text-[11px] font-semibold uppercase tracking-[0.12em] sm:tracking-[0.15em] md:tracking-[0.2em] text-[var(--primary)] leading-snug">
                 Advancing Healthcare Through Quality & Innovation
               </span>
             </div>
 
             {/* Heading */}
-            <div className="mt-6">
-              <h1 className="text-4xl font-bold leading-[0.95] tracking-[-0.04em] text-slate-900 md:text-6xl xl:text-[72px]">
+            <div className="mt-5 sm:mt-6">
+              <h1 className="text-[34px] sm:text-4xl font-bold leading-[0.95] tracking-[-0.04em] text-slate-900 md:text-6xl xl:text-[72px]">
                 Pharmaceutical
                 <br />
                 Manufacturing
@@ -55,7 +51,7 @@ export default function Hero() {
                 </span>
               </h1>
 
-              <p className="mt-6 max-w-3xl text-base leading-relaxed text-slate-600 md:text-lg">
+              <p className="mt-5 sm:mt-6 max-w-3xl text-sm sm:text-base leading-relaxed text-slate-600 md:text-lg">
                 REDSON Pharmaceuticals Private Limited is a trusted
                 pharmaceutical manufacturer, exporter, and supplier
                 specializing in tablets, capsules, injectables,
@@ -65,23 +61,27 @@ export default function Hero() {
             </div>
 
             {/* CTA */}
-            <div className="mt-6 flex flex-wrap gap-4">
-              <button className="group flex items-center gap-1 md:gap-2 rounded-full bg-black border-[2px] border-[black] px-6 py-3.5 text-sm font-semibold text-white hover:text-black transition-all duration-500 hover:-translate-y-0.5 hover:bg-transparent">
-                Request Manufacturing Quote
+            <div className="mt-6 flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-4 w-full sm:w-auto">
+              <a href="#contact" className="group flex w-full sm:w-auto min-h-[48px] items-center justify-center gap-2 rounded-full border-2 border-black bg-black px-5 sm:px-6 py-3 sm:py-3.5 text-sm font-semibold text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-transparent hover:text-black active:scale-[0.98]">
+                <span className="whitespace-nowrap">
+                  Contact Now
+                </span>
 
                 <ArrowRight
                   size={16}
-                  className="transition-transform group-hover:translate-x-1"
+                  className="shrink-0 transition-transform duration-300 group-hover:translate-x-1"
                 />
-              </button>
+              </a>
 
-              <button className="rounded-full border-[2px] border-[black] bg-white px-6 py-3.5 text-sm font-semibold text-slate-800 transition hover:bg-slate-50">
-                Download Company Profile
+              <button className="w-full sm:w-auto min-h-[48px] rounded-full border-2 border-black bg-white px-5 sm:px-6 py-3 sm:py-3.5 text-sm font-semibold text-slate-800 transition-all duration-300 hover:bg-slate-50 hover:-translate-y-0.5 active:scale-[0.98]">
+                <span className="whitespace-nowrap">
+                  Company Profile
+                </span>
               </button>
             </div>
 
             {/* Trust Row */}
-            <div className="mt-10 flex flex-wrap gap-6">
+            <div className="mt-8 sm:mt-10 flex flex-wrap gap-4 sm:gap-6">
               {trustItems.map((item) => {
                 const Icon = item.icon;
 
@@ -90,7 +90,7 @@ export default function Hero() {
                     key={item.label}
                     className="flex items-center gap-2.5"
                   >
-                    <div className="flex h-9 w-9 items-center justify-center rounded-full bg-[var(--primary)]/10">
+                    <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[var(--primary)]/10">
                       <Icon
                         size={16}
                         className="text-[var(--primary)]"
@@ -109,50 +109,48 @@ export default function Hero() {
           {/* RIGHT */}
           <div className="relative">
             {/* Main Image */}
-            <div className="overflow-hidden rounded-[32px] border border-slate-200 bg-slate-100 shadow-[0_25px_60px_rgba(15,23,42,0.12)]">
+            <div className="overflow-hidden rounded-[24px] sm:rounded-[32px] border border-slate-200 bg-slate-100 shadow-[0_25px_60px_rgba(15,23,42,0.12)]">
               <Image
                 src="/temp-img-01.png"
                 alt="REDSON Pharmaceuticals Manufacturing Facility"
                 width={900}
                 height={1000}
-                className="h-[360px] w-full object-cover md:h-[520px] lg:h-[520px] xl:h-[560px]"
+                className="h-[280px] w-full object-cover sm:h-[360px] md:h-[520px] lg:h-[520px] xl:h-[560px]"
               />
             </div>
 
             {/* Floating Card */}
-            <div className="absolute bottom-2 left-2 right-2 rounded-[28px] border border-white/30 bg-white/90 p-3 shadow-xl backdrop-blur-xl sm:bottom-4 sm:left-4 sm:right-4 md:bottom-8 md:left-8 md:right-8 md:rounded-[24px] md:p-5">
+            <div className="absolute bottom-2 left-2 right-2 rounded-[20px] sm:rounded-[24px] md:rounded-[28px] border border-white/30 bg-white/90 p-3 sm:p-4 md:p-5 shadow-xl backdrop-blur-xl sm:bottom-4 sm:left-4 sm:right-4 md:bottom-8 md:left-8 md:right-8">
               <div className="grid grid-cols-3 gap-2 sm:gap-4">
-                
                 {/* Item 1 */}
                 <div className="flex flex-col items-center text-center border-r border-slate-200 px-1 sm:px-3">
-                  <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-slate-900">
+                  <h3 className="text-base sm:text-xl md:text-2xl font-bold text-slate-900">
                     100%
                   </h3>
-                  <p className="mt-1 text-[10px] sm:text-xs md:text-sm text-slate-500 leading-tight">
+                  <p className="mt-1 text-[9px] sm:text-xs md:text-sm text-slate-500 leading-tight">
                     Quality Focus
                   </p>
                 </div>
 
                 {/* Item 2 */}
                 <div className="flex flex-col items-center text-center px-1 sm:px-3">
-                  <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-slate-900">
+                  <h3 className="text-base sm:text-xl md:text-2xl font-bold text-slate-900">
                     GMP
                   </h3>
-                  <p className="mt-1 text-[10px] sm:text-xs md:text-sm text-slate-500 leading-tight">
+                  <p className="mt-1 text-[9px] sm:text-xs md:text-sm text-slate-500 leading-tight">
                     Compliant
                   </p>
                 </div>
 
                 {/* Item 3 */}
                 <div className="flex flex-col items-center text-center border-l border-slate-200 px-1 sm:px-3">
-                  <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-slate-900">
+                  <h3 className="text-base sm:text-xl md:text-2xl font-bold text-slate-900">
                     Global
                   </h3>
-                  <p className="mt-1 text-[10px] sm:text-xs md:text-sm text-slate-500 leading-tight">
+                  <p className="mt-1 text-[9px] sm:text-xs md:text-sm text-slate-500 leading-tight">
                     Export Support
                   </p>
                 </div>
-
               </div>
             </div>
           </div>
