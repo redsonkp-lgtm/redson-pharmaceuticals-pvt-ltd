@@ -1,6 +1,5 @@
 "use client";
 
-
 import {
   Phone,
   Mail,
@@ -9,6 +8,7 @@ import {
   Send,
   MessageSquareDotIcon,
 } from "lucide-react";
+import { useState } from "react";
 
 const contactInfo = [
   {
@@ -146,39 +146,43 @@ export default function Contact() {
           <div className="rounded-[28px] border border-[var(--primary)]/40 bg-[var(--primary)]/5 p-6 md:p-8">
             <form onSubmit={handleSubmit} className="space-y-5">
               <div className="grid gap-5 md:grid-cols-2">
-              <input
-                name="name"
-                value={formData.name}
-                onChange={handleChange}
-                type="text"
-                placeholder="Your Name"
-              />
+                <input
+                  name="name"
+                  value={formData.name}
+                  onChange={handleChange}
+                  type="text"
+                  placeholder="Your Name"
+                  className="h-14 rounded-2xl border border-[var(--primary)]/20 bg-white px-4 text-sm outline-none focus:border-[var(--primary)]"
+                />
 
-              <input
-                name="email"
-                value={formData.email}
-                onChange={handleChange}
-                type="email"
-                placeholder="Email Address"
-              />
+                <input
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  type="email"
+                  placeholder="Email Address"
+                  className="h-14 rounded-2xl border border-[var(--primary)]/20 bg-white px-4 text-sm outline-none focus:border-[var(--primary)]"
+                />
               </div>
 
               <div className="grid gap-5 md:grid-cols-2">
-              <input
-                name="phone"
-                value={formData.phone}
-                onChange={handleChange}
-                type="text"
-                placeholder="Phone Number"
-              />
+                <input
+                  name="phone"
+                  value={formData.phone}
+                  onChange={handleChange}
+                  type="text"
+                  placeholder="Phone Number"
+                  className="h-14 rounded-2xl border border-[var(--primary)]/20 bg-white px-4 text-sm outline-none focus:border-[var(--primary)]"
+                />
 
-              <input
-                name="company"
-                value={formData.company}
-                onChange={handleChange}
-                type="text"
-                placeholder="Company Name"
-              />
+                <input
+                  name="company"
+                  value={formData.company}
+                  onChange={handleChange}
+                  type="text"
+                  placeholder="Company Name"
+                  className="h-14 rounded-2xl border border-[var(--primary)]/20 bg-white px-4 text-sm outline-none focus:border-[var(--primary)]"
+                />
               </div>
 
               <textarea
@@ -187,10 +191,10 @@ export default function Contact() {
                 onChange={handleChange}
                 rows={6}
                 placeholder="Tell us about your requirements..."
+                className="w-full rounded-2xl border border-[var(--primary)]/20 bg-white px-4 py-4 text-sm outline-none focus:border-[var(--primary)]"
               />
 
               <div className="pt-2">
-                {/* Action Buttons */}
                 <div className="flex flex-col gap-4">
                   
                   {/* Primary Button */}
@@ -206,12 +210,12 @@ export default function Contact() {
                   </button>
 
                   <div className="relative flex items-center">
-                  <div className="flex-grow border-t border-[var(--primary)]/20"></div>
-                  <span className="mx-4 bg-transparent px-2 text-xs font-medium uppercase tracking-wider text-gray-500">
-                    Or
-                  </span>
-                  <div className="flex-grow border-t border-[var(--primary)]/20"></div>
-                </div>
+                    <div className="flex-grow border-t border-[var(--primary)]/20"></div>
+                    <span className="mx-4 bg-transparent px-2 text-xs font-medium uppercase tracking-wider text-gray-500">
+                      Or
+                    </span>
+                    <div className="flex-grow border-t border-[var(--primary)]/20"></div>
+                  </div>
 
                   {/* Secondary Button */}
                   <a
