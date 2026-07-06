@@ -134,21 +134,7 @@ export default function Services() {
                 </div>
 
                 {/* CTA */}
-                <a
-                  href={`https://wa.me/918866003844?text=${encodeURIComponent(
-                    `Hello, I'm interested in your ${service.title} service. I would like to know more about the process, pricing, and partnership details.`
-                  )}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex w-fit items-center gap-2 text-sm font-semibold text-[var(--primary)] transition-all duration-300 group-hover:gap-3"
-                >
-                  Learn More
-
-                  <ArrowRight
-                    size={16}
-                    className="transition-transform duration-300 group-hover:translate-x-1"
-                  />
-                </a>
+                
               </div>
             </motion.div>
           ))}

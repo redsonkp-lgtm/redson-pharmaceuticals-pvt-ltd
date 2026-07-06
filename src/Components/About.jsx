@@ -129,7 +129,7 @@ export default function About() {
               className="relative overflow-hidden rounded-[24px] sm:rounded-[32px] border border-slate-200 bg-slate-100 shadow-[0_25px_60px_rgba(15,23,42,0.12)]"
             >
               <Image
-                src="/temp-img-01.png"
+                src="/about.webp"
                 alt="REDSON Manufacturing Facility"
                 width={900}
                 height={1000}

@@ -1,0 +1,59 @@
+# =============================================
+# robots.txt — Redson Pharmaceuticals
+# https://redsongroup.in/robots.txt
+# =============================================
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Disallow admin/private areas (update these if needed)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+Disallow: /*.json$
+
+# Allow important resources
+Allow: /images/
+Allow: /css/
+Allow: /js/
+Allow: /fonts/
+
+# Crawl rate (optional — conservative for pharma site)
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://redsongroup.in/sitemap.xml
+
+# ─── Specific Bot Rules ───────────────────────────────────
+
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Google Image Bot
+User-agent: Googlebot-Image
+Allow: /images/
+Allow: /og-image.jpg
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Block known bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /

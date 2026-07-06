@@ -4,14 +4,14 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 const galleryImages = [
-  "/gallery-1.jpg",
-  "/gallery-2.jpg",
-  "/gallery-3.jpg",
-  "/gallery-4.jpg",
-  "/gallery-5.jpg",
-  "/gallery-6.jpg",
-  "/gallery-7.jpg",
-  "/gallery-8.jpg",
+  "/g1.webp",
+  "/g2.webp",
+  "/g3.webp",
+  "/g4.webp",
+  "/g5.webp",
+  "/g6.webp",
+  "/g7.webp",
+  "/g8.webp",
 ];
 
 const fadeUp = {
@@ -109,18 +109,7 @@ export default function Gallery() {
               />
 
               {/* Floating Label */}
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                whileHover={{ y: -3 }}
-                transition={{ delay: 0.2 }}
-                viewport={{ once: true }}
-                className="absolute bottom-4 left-4 rounded-full bg-white/90 backdrop-blur-md px-4 py-2 shadow-lg"
-              >
-                <span className="text-[11px] font-semibold uppercase tracking-[0.18em] text-slate-900">
-                  Facility {index + 1}
-                </span>
-              </motion.div>
+              
             </motion.div>
           ))}
         </div>

@@ -5,25 +5,25 @@ import { motion } from "framer-motion";
 
 const certifications = [
   {
-    title: "WHO-GMP Certified",
+    title: "Udyam",
     image: "/certificates/REDSON PHARMACEUTICALS PRIVATE LIMITED_MSME UDYAM.jpg",
     file: "/certificates/REDSON PHARMACEUTICALS PRIVATE LIMITED_MSME UDYAM.pdf",
   },
-  {
-    title: "ISO Certified",
-    image: "/certificates/REDSON PHARMACEUTICALS PRIVATE LIMITED_MSME UDYAM.jpg",
-    file: "/certificates/REDSON PHARMACEUTICALS PRIVATE LIMITED_MSME UDYAM.pdf",
-  },
-  {
-    title: "MSME Registered",
-    image: "/certificates/REDSON PHARMACEUTICALS PRIVATE LIMITED_MSME UDYAM.jpg",
-    file: "/certificates/REDSON PHARMACEUTICALS PRIVATE LIMITED_MSME UDYAM.pdf",
-  },
-  {
-    title: "Export License",
-    image: "/certificates/REDSON PHARMACEUTICALS PRIVATE LIMITED_MSME UDYAM.jpg",
-    file: "/certificates/REDSON PHARMACEUTICALS PRIVATE LIMITED_MSME UDYAM.pdf",
-  },
+  // {
+  //   title: "ISO Certified",
+  //   image: "/certificates/REDSON PHARMACEUTICALS PRIVATE LIMITED_MSME UDYAM.jpg",
+  //   file: "/certificates/REDSON PHARMACEUTICALS PRIVATE LIMITED_MSME UDYAM.pdf",
+  // },
+  // {
+  //   title: "MSME Registered",
+  //   image: "/certificates/REDSON PHARMACEUTICALS PRIVATE LIMITED_MSME UDYAM.jpg",
+  //   file: "/certificates/REDSON PHARMACEUTICALS PRIVATE LIMITED_MSME UDYAM.pdf",
+  // },
+  // {
+  //   title: "Export License",
+  //   image: "/certificates/REDSON PHARMACEUTICALS PRIVATE LIMITED_MSME UDYAM.jpg",
+  //   file: "/certificates/REDSON PHARMACEUTICALS PRIVATE LIMITED_MSME UDYAM.pdf",
+  // },
 ];
 
 export default function Certifications() {

@@ -11,10 +11,12 @@ import FAQs from "@/Components/FAQs";
 import ContractManufacturing from "@/Components/ContractManufacturing";
 import ThirdPartyManufacturing from "@/Components/ThirdPartyManufacturing";
 import ExportServices from "@/Components/ExportServices";
+import SchemaMarkup from "@/Components/SchemaMarkup";
 
 export default function Home() {
   return (
     <>
+    <SchemaMarkup/>
     <Hero/>
     <About/>
     <ManufacturingFacilities/>

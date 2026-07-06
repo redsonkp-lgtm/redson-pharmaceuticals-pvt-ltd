@@ -12,6 +12,8 @@ import {
 } from "lucide-react";
 
 const quickLinks = [
+      { label: "Home", href: "#hero" },
+
   { label: "About", href: "#about" },
   { label: "Services", href: "#services" },
   { label: "Manufacturing", href: "#manufacturingcapabilities" },
